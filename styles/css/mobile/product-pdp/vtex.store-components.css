@@ -1,0 +1,104 @@
+.swiper-pagination {
+    display: none;
+}
+
+.swiperCaretNext {
+    display: none;
+}
+
+.swiperCaretPrev {
+    display: none;
+}
+
+.productBrand {
+    font-family   : 'Lexend';
+    color         : #1D2734;
+    font-size     : 16px;
+    font-weight   : 300;
+    line-height   : 16px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+
+.currencyContainer {
+    font-family   : 'Lexend';
+    color         : #1D2734;
+    font-size     : 24px;
+    font-weight   : 600;
+    line-height   : 16px;
+    letter-spacing: 0px;
+}
+
+.currencyContainer :global(.vtex-store-components-3-x-currencyCode)::before {
+    content     : "NOW";
+    margin-right: 4px;
+}
+
+.skuSelectorContainer {
+    background    : red;
+    display       : flex;
+    flex-direction: column-reverse;
+    margin-top    : 40px;
+}
+
+.skuSelectorSubcontainer--color {
+    margin: 0;
+}
+
+
+.skuSelectorSubcontainer--color :global(.vtex-store-components-3-x-skuSelectorItem) {
+    min-width      : 64px;
+    min-height     : 64px;
+    background     : white;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.skuSelectorSubcontainer--color :global(.vtex-store-components-3-x-skuSelectorInternalBox) {
+    min-width        : 40px;
+    min-height       : 40px;
+    border-radius: 100%;
+}
+
+.skuSelectorSubcontainer--talla {
+    margin       : 0;
+    margin-bottom: 16px;
+}
+
+.skuSelectorSubcontainer--talla :global(.vtex-store-components-3-x-skuSelectorItem) {
+    background   : white;
+    width        : 77px;
+    height       : 40px;
+    border-radius: 4px;
+    border       : 1px solid #E7E7E7;
+}
+
+.skuSelectorSubcontainer--talla :global(.vtex-store-components-3-x-skuSelectorItemTextValue) {
+    font-family   : "Lexend";
+    font-size     : 14px;
+    font-weight   : 300;
+    line-height   : 20px;
+    letter-spacing: 0px;
+    color         : #1D2734;
+}
+
+.frameAround {
+    border-color: transparent;
+}
+
+.skuSelectorName {
+    font-size  : 16px;
+    font-weight: 600;
+    font-family: "Lexend";
+    color      : #1D2734;
+}
+
+.skuSelectorSelectorImageValue {
+    font-family   : "Lexend";
+    font-size     : 16px;
+    font-weight   : 300;
+    line-height   : 16px;
+    letter-spacing: 0px;
+    color         : #1D2734;
+}

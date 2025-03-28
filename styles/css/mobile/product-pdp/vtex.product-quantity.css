@@ -1,0 +1,11 @@
+.quantitySelectorTitle {
+    display: none;
+}
+
+.quantitySelectorStepper {
+    margin-top: 16px;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper-container) {
+    background: blue;
+}
