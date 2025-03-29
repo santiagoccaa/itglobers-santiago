@@ -7,5 +7,61 @@
 }
 
 .quantitySelectorStepper :global(.vtex-numeric-stepper-container) {
-    background: blue;
+    background: white;
+    width     : 145px;
+    height    : 48px;
+    border    : 1px solid #E7E7E7;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__input) {
+    font-size  : 14px;
+    line-height: 100%;
+    left       : 0%;
+    font-weight: 300;
+    font-family: "Lexend";
+    height     : 48px;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button-container) {
+    background                : #1D2734;
+    width                     : 46px;
+    height                    : 100%;
+    border                    : 1px solid #E7E7E7;
+    border-top-right-radius   : 4px;
+    border-bottom-right-radius: 4px;
+    overflow                  : hidden;
+    display                   : flex;
+    align-items               : center;
+    justify-content           : center;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button-container) {
+    background               : #1D2734;
+    width                    : 46px;
+    height                   : 100%;
+    border                   : 1px solid #E7E7E7;
+    border-top-left-radius   : 4px;
+    border-bottom-left-radius: 4px;
+    overflow                 : hidden;
+    display                  : flex;
+    align-items              : center;
+    justify-content          : center;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button) {
+    background: transparent;
+    width     : 46px;
+    height    : 100%;
+    border    : transparent;
+    color     : white;
+    font-size : 20px;
+}
+
+.quantitySelectorStepper :global(.vtex-numeric-stepper__minus-button) {
+    background: transparent;
+    width     : 46px;
+    height    : 100%;
+    border    : transparent;
+    color     : white;
+    font-size : 20px;
 }

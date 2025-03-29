@@ -1,14 +1,3 @@
-.swiper-pagination {
-    display: none;
-}
-
-.swiperCaretNext {
-    display: none;
-}
-
-.swiperCaretPrev {
-    display: none;
-}
 
 .productBrand {
     font-family   : 'Lexend';
@@ -29,13 +18,26 @@
     letter-spacing: 0px;
 }
 
+.shareLabel {
+    font-size  : 16px;
+    font-weight: 600;
+    font-family: "Lexend";
+    color      : #1D2734;
+}
+
+.specificationsTitle {
+    font-size  : 16px;
+    font-weight: 600;
+    font-family: "Lexend";
+    color      : #1D2734;
+}
+
 .currencyContainer :global(.vtex-store-components-3-x-currencyCode)::before {
     content     : "NOW";
     margin-right: 4px;
 }
 
 .skuSelectorContainer {
-    background    : red;
     display       : flex;
     flex-direction: column-reverse;
     margin-top    : 40px;
@@ -56,8 +58,8 @@
 }
 
 .skuSelectorSubcontainer--color :global(.vtex-store-components-3-x-skuSelectorInternalBox) {
-    min-width        : 40px;
-    min-height       : 40px;
+    min-width    : 40px;
+    min-height   : 40px;
     border-radius: 100%;
 }
 
@@ -101,4 +103,26 @@
     line-height   : 16px;
     letter-spacing: 0px;
     color         : #1D2734;
+}
+
+.shareSocialButton {
+    width : 40px;
+    height: 40px;
+}
+
+.shareSocialIcon {
+    width : 40px;
+    height: 40px;
+}
+
+.specificationsTableContainer {
+    margin-top: 40px;
+}
+
+.specificationsTable {
+    border-radius: 12px;
+}
+
+.specificationsTableHead {
+    display: none;
 }
