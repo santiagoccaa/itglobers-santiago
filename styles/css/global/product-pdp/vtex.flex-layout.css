@@ -21,9 +21,3 @@
     padding-left       : 20px;
     margin-right       : 15px;
 }
-
-@media screen and (max-width: 768px) {
-    .flexRowContent--add-to-cart :global(.vtex-button) {
-        width: 80%;
-    }
-}

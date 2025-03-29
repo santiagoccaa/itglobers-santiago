@@ -43,5 +43,33 @@
             "thumbnailVisibility": "visible",
             "displayMode": "carousel "
         }
+    },
+    "responsive-layout.mobile#add-to-cart": {
+        "children": [
+            "flex-layout.row#mobile__add-to-cart"
+        ]
+    },
+    "flex-layout.row#mobile__add-to-cart": {
+        "children": [
+            "product-quantity#mobile",
+            "add-to-cart-button#mobile"
+        ],
+        "props": {
+            "blockClass": "add-to-cart",
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "horizontalAlign": "center"
+        }
+    },
+    "product-quantity#mobile": {
+        "props": {
+            "width": "50%"
+        }
+    },
+    "add-to-cart-button#mobile": {
+        "props": {
+            "text": "Agregar",
+            "width": "50%"
+        }
     }
 }
