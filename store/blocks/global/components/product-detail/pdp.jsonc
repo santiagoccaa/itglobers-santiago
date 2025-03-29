@@ -8,34 +8,12 @@
             "product-name",
             "product-price",
             "sku-selector",
-            "flex-layout.row#add-to-cart",
+            "responsive-layout.desktop#add-to-cart",
+            "responsive-layout.mobile#add-to-cart",
             "flex-layout.row",
             "product-separator",
             "share"
         ]
-    },
-    "flex-layout.row#add-to-cart": {
-        "children": [
-            "product-quantity",
-            "add-to-cart-button"
-        ],
-        "props": {
-            "blockClass": "add-to-cart",
-            "preserveLayoutOnMobile": true,
-            "colSizing": "auto",
-            "horizontalAlign": "center"
-        }
-    },
-    "product-quantity": {
-        "props": {
-            "width": "35%"
-        }
-    },
-    "add-to-cart-button": {
-        "props": {
-            "text": "Agregar al carrito",
-            "width": "65%"
-        }
     },
     "share": {
         "props": {
