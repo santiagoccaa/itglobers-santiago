@@ -1,7 +1,8 @@
 {
   "store.product": {
     "children": [
-      "responsive-layout.mobile"
+      "responsive-layout.mobile",
+      "responsive-layout.desktop"
     ]
   }
 }

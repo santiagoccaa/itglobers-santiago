@@ -19,7 +19,10 @@
     left       : 0%;
     font-weight: 300;
     font-family: "Lexend";
-    height     : 48px;
+    height     : 45px;
+    margin-top: 1px;
+    background: #FFFFFF;
+    border: 0;
 }
 
 .quantitySelectorStepper :global(.vtex-numeric-stepper__plus-button-container) {

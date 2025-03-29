@@ -1,4 +1,3 @@
-
 .productBrand {
     font-family   : 'Lexend';
     color         : #1D2734;
@@ -120,7 +119,8 @@
 }
 
 .specificationsTable {
-    border-radius: 12px;
+    background-color: #E7E7E7;
+    border-radius   : 12px;
 }
 
 .specificationsTableHead {

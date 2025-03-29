@@ -1,49 +1,4 @@
 {
-    "responsive-layout.mobile": {
-        "children": [
-            "flex-layout.row#product-main"
-        ]
-    },
-    "flex-layout.row#product-main": {
-        "props": {
-            "colGap": 7,
-            "rowGap": 7,
-            "marginTop": 4,
-            "marginBottom": 7,
-            "paddingTop": 7,
-            "paddingBottom": 7
-        },
-        "children": [
-            "flex-layout.col#content--product"
-        ]
-    },
-    "flex-layout.col#content--product": {
-        "children": [
-            "flex-layout.col#product-image",
-            "flex-layout.col#right-col",
-            "flex-layout.row#product-specifications"
-        ]
-    },
-    "flex-layout.col#product-image": {
-        "props": {
-            "width": "60%",
-            "rowGap": 0
-        },
-        "children": [
-            "product-images"
-        ]
-    },
-    "product-images": {
-        "props": {
-            "displayThumbnailsArrows": true,
-            "thumbnailsOrientation": "horizontal",
-            "maxHeight": 419,
-            "showNavigationArrows": false,
-            "showPaginationDots": false,
-            "thumbnailVisibility": "visible",
-            "displayMode": "carousel "
-        }
-    },
     "flex-layout.col#right-col": {
         "props": {
             "preventVerticalStretch": true,
@@ -65,14 +20,21 @@
             "add-to-cart-button"
         ],
         "props": {
-            "preventHorizontalStretch": true,
-            "width": "50%"
+            "blockClass": "add-to-cart",
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto",
+            "horizontalAlign": "center"
+        }
+    },
+    "product-quantity": {
+        "props": {
+            "width": "35%"
         }
     },
     "add-to-cart-button": {
         "props": {
-            "text": "Agregar",
-            "blockClass": "button-add-to-cart"
+            "text": "Agregar al carrito",
+            "width": "65%"
         }
     },
     "share": {
@@ -87,7 +49,7 @@
     },
     "sku-selector": {
         "props": {
-            "showValueForVariation": "all"
+            "showValueForVariation": "image"
         }
     },
     "flex-layout.row#product-specifications": {
