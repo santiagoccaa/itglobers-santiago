@@ -1,0 +1,61 @@
+.flexRowContent--mobile__filter-category {
+    display: flex;
+}
+
+.flexRowContent--product-summary {
+    display   : flex;
+    width     : 290px;
+    height    : 106px;
+}
+
+.flexRowContent--product-summary :global(.vtex-product-summary-2-x-imageContainer) {
+    width     : 135px;
+    height    : 106px;
+    margin    : 0;
+}
+
+.flexRowContent--product-summary :global(.vtex-product-summary-2-x-image) {
+    width     : 100%;
+    height    : 100%;
+    object-fit: cover;
+}
+
+.flexRowContent--product-summary :global(.vtex-product-summary-2-x-description) {
+    max-height        : 39px;
+    line-height       : 12px;
+    font-size         : 12px;
+    font-weight       : 400;
+    font-family       : "Lexend";
+    overflow          : hidden;
+    display           : -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow     : ellipsis;
+    text-align        : left;
+}
+
+.flexRowContent--product-summary :global(.vtex-product-summary-2-x-productPriceClass) {
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: left;
+}
+
+.flexRowContent--product-summary :global(.vtex-store-components-3-x-sellingPriceValue) {
+    font-family: "Lexend";
+    color         : #1D2734;
+    font-weight   : 600;
+    font-size     : 20px;
+    line-height   : 21px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.flexRowContent--product-summary :global(.vtex-product-summary-2-x-installmentContainer) {
+    font-family: "Lexend";
+    color         : #1D273466;
+    font-weight   : 400;
+    font-size     : 12px;
+    line-height   : 12px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-decoration: line-through;
+}

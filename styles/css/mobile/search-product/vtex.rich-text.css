@@ -1,0 +1,21 @@
+.paragraph--title--filter--text {
+    font-family   : "Lexend";
+    color         : #1D2734;
+    font-size     : 20px;
+    font-weight   : 600;
+    line-height   : 100%;
+    letter-spacing: 0px;
+}
+
+@media (max-width:728px) {
+    .paragraph--title--filter--text {
+        font-family   : "Lexend";
+        color         : #1D2734;
+        font-size     : 14px;
+        font-weight   : 600;
+        line-height   : 100%;
+        letter-spacing: 0px;
+        margin        : 16px;
+    }
+
+}

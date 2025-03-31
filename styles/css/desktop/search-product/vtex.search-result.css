@@ -1,0 +1,54 @@
+.totalProducts--layout {
+    padding       : 0;
+    text-align    : left;
+    color         : #1D2734;
+    font-weight   : 300;
+    font-family   : "Lexend";
+    text-transform: lowercase;
+    font-size     : 14px;
+}
+
+.totalProductsMessage {
+    color: #1D2734;
+}
+
+.totalProductsMessage::after {
+    content: " encontrados";
+}
+
+.orderByText {
+    display: none;
+}
+
+.filterMessage {
+    display: none;
+}
+
+.orderByOptionsContainer {
+    top                       : 45px;
+    width                     : 240px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius : 8px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.orderByOptionItem {
+    text-align    : left;
+    color         : #1D2734;
+    font-weight   : 400;
+    font-family   : "Lexend";
+    text-transform: lowercase;
+    font-size     : 14px;
+}
+
+.filter__container--selectedFilters{
+    display: none;
+}
+
+.filter__container{
+    border-bottom-style: none;
+}
+.filterTemplateOverflow {
+    width: 184px;
+}

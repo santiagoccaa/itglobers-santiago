@@ -1,0 +1,106 @@
+{
+    "store.search": {
+        "blocks": [
+            "search-result-layout"
+        ],
+        "props": {
+            "context": {
+                "skusFilter": "ALL_AVAILABLEALL",
+                "simulationBehavior": "skip"
+            }
+        }
+    },
+    "store.search#category": {
+        "blocks": [
+            "search-result-layout"
+        ],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "skip"
+            }
+        }
+    },
+    "store.search#brand": {
+        "blocks": [
+            "search-result-layout"
+        ],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "skip"
+            }
+        }
+    },
+    "store.search#department": {
+        "blocks": [
+            "search-result-layout"
+        ],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "skip"
+            }
+        }
+    },
+    "store.search#subcategory": {
+        "blocks": [
+            "search-result-layout"
+        ],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "skip"
+            }
+        }
+    },
+    "search-result-layout": {
+        "blocks": [
+            "search-result-layout.desktop#search",
+            "search-result-layout.mobile#search",
+            "search-not-found-layout"
+        ]
+    },
+    "rich-text#title--filter--text": {
+        "props": {
+            "text": "Clothing, Shoes and Accesories",
+            "blockClass": "title--filter--text"
+        }
+    },
+    "gallery": {
+        "props": {
+            "layouts": [
+                {
+                    "name": "whole",
+                    "component": "OneOrTwoLineSummary",
+                    "itemsPerRow": {
+                        "desktop": 3,
+                        "tablet": 3,
+                        "mobile": 1
+                    }
+                }
+            ],
+            "OneOrTwoLineSummary": "product-summary.shelf#global__result"
+        }
+    },
+    "product-summary.shelf#global__result": {
+        "children": [
+            "flex-layout.row#product-summary"
+        ]
+    },
+    "flex-layout.row#product-summary": {
+        "children": [
+            "product-summary-image",
+            "flex-layout.col#descripcion_price"
+        ],
+        "props": {
+            "blockClass": "product-summary"
+        }
+    },
+    "flex-layout.col#descripcion_price": {
+        "children": [
+            "product-summary-description",
+            "product-summary-price"
+        ]
+    }
+}

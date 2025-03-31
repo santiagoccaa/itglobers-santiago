@@ -1,0 +1,31 @@
+.orderByButton--mobile--order-by {
+    background    : #E7E7E7;
+    border-radius : 40px;
+    padding-top   : 14px;
+    padding-bottom: 14px;
+    padding-left  : 12px;
+    padding-right : 12px;
+    border        : 1px solid #1D2734;
+}
+
+.filterPopupTitle--mobile--order-by {
+    font-family   : "Lexend";
+    font-weight   : 400;
+    font-size     : 12px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    color         : #1D2734;
+    text-transform: lowercase;
+}
+
+.filterPopupTitle--mobile--order-by::first-letter {
+    text-transform: uppercase;
+}
+
+.orderByText--mobile--order-by {
+    display: none;
+}
+
+.gallery--whole{
+    margin-top: 12px;
+}

@@ -1,0 +1,111 @@
+.flexRowContent--result__filter--title--filter :global(.vtex-search-result-3-x-orderByDropdown) {
+    display        : flex;
+    justify-content: flex-end;
+}
+
+.flexRowContent--result__filter--title--filter :global(.vtex-search-result-3-x-orderByButton) {
+    background   : #E7E7E7;
+    width        : auto;
+    height       : 40px;
+    border-radius: 40px;
+    border       : 1px solid #E7E7E7;
+    text-align: left;
+}
+
+.flexRowContent--result__filter--title--filter :global(.vtex-search-result-3-x-orderByButton)::before {
+    content          : "";
+    display          : inline-block;
+    margin-right     : 14px;
+    width            : 12px;
+    height           : 8px;
+    background-image : url('assets/img/icons/filtrosvg.svg');
+    background-size  : contain;
+    background-repeat: no-repeat;
+    margin-left      : 8px;
+    vertical-align   : middle;
+}
+
+
+.flexRowContent--result__filter--title--filter :global(.vtex-search-result-3-x-filterPopupTitle) {
+    color         : #1D2734;
+    font-family   : "Lexend";
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    text-transform: lowercase;
+}
+
+.flexRow--category__result {
+    margin-top: 40px;
+}
+
+.flexRow--category__result :global(.vtex-search-result-3-x-filter) {
+    background    : #E7E7E7;
+    border-radius : 40px;
+    border        : 1px solid #1D2734;
+    padding-left  : 16px;
+    padding-right : 16px;
+    padding-top   : 8px;
+    padding-bottom: 8px;
+    width         : 184px;
+}
+
+
+.flexRow--category__result :global(.vtex-search-result-3-x-filterTitleSpan) {
+    font-family   : "Lexend";
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 20px;
+    letter-spacing: 0px;
+    color         : #1D2734;
+}
+
+.flexRow--category__result :global(.vtex-search-result-3-x-filterTemplateOverflow) {
+    padding: 5px;
+}
+
+.flexRow--category__result :global(.vtex-checkbox__label) {
+    color         : #1D2734;
+    font-weight   : 300;
+    font-size     : 12px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+}
+
+.flexRow--category__result :global(.vtex-checkbox__line-container) {
+    padding    : 10px;
+    display    : flex;
+    align-items: center;
+}
+
+.flexRow--category__result :global(.vtex-slider__base-internal) {
+    background: #1D2734;
+}
+
+.flexRow--category__result :global(.vtex-slider__selector) {
+    background: #1D2734;
+}
+
+.flexRow--category__result :global(.vtex-slider__values-container) {
+    display        : flex;
+    justify-content: center;
+}
+
+.flexRow--category__result :global(.vtex-slider__left-value) {
+    font-family   : "Lexend";
+    font-weight   : 300;
+    font-size     : 14px;
+    line-height   : 20px;
+    letter-spacing: 0px;
+    color         : #1D2734;
+}
+
+.flexRow--category__result :global(.vtex-slider__right-value) {
+    font-family   : "Lexend";
+    font-weight   : 300;
+    font-size     : 14px;
+    line-height   : 20px;
+    letter-spacing: 0px;
+    color         : #1D2734;
+}
