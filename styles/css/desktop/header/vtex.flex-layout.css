@@ -1,0 +1,23 @@
+.flexRow--desktop__header--navigation-links {
+    display     : flex;
+    align-items : center;
+    margin-left : 58px;
+    margin-right: 40px;
+}
+
+.flexRowContent--desktop__header--navigation-links {
+    gap: 13px;
+}
+
+.flexCol--desktop__category--content {
+    width        : 70px;
+    height       : 47px;
+    align-items  : center;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    transition    : 0.3s ease;
+}
+
+.flexCol--desktop__category--content:hover { 
+    border-bottom: 3px solid #1D2734; 
+}
