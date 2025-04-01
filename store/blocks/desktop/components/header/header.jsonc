@@ -1,40 +1,54 @@
 {
     "header-layout.desktop": {
+        "title": "Desktop Header Layout",
         "children": [
-            "sticky-layout#desktop"
-        ]
-    },
-    "sticky-layout#desktop": {
+            "header-force-center"
+        ],
         "props": {
-            "blockClass": "sticky-header"
-        },
-        "children": [
-            "flex-layout.row#desktop"
-        ]
+            "sticky": true,
+            "zIndex": 999
+        }
     },
-    "flex-layout.row#desktop": {
+    "header-force-center": {
+        "children": [
+            "header-row#1-desktop",
+            "header-row#2-desktop"
+        ],
+        "props": {
+            "sticky": true
+        }
+    },
+    "header-row#1-desktop": {
+        "title": "Desktop Header Row 1",
+        "children": [
+            "flex-layout.row#row1-desktop"
+        ],
+        "props": {
+            "fullWidth": true,
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.row#row1-desktop": {
+        "title": "Main Desktop Header Flex Row",
         "props": {
             "horizontalAlign": "center",
             "verticalAlign": "center",
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
-            "fullWidth": true
+            "fullWidth": true,
+            "marginTop": "9"
         },
         "children": [
             "flex-layout.col#logo-desktop",
-            "flex-layout.col#spacer",
-            "search-bar",
-            "locale-switcher",
-            "login",
-            "minicart.v2"
+            "flex-layout.col#logo-desktop",
+            "search-bar#desktop",
+            "flex-layout.row#desktop__header--navigation-links",
+            "minicart.v2",
+            "login"
         ]
     },
-    "flex-layout.col#spacer": {
-        "props": {
-            "width": "grow"
-        }
-    },
     "flex-layout.col#logo-desktop": {
+        "title": "Desktop Logo Column",
         "props": {
             "verticalAlign": "middle"
         },
@@ -43,11 +57,79 @@
         ]
     },
     "logo": {
+        "title": "Store Logo Component",
         "props": {
             "title": "Logo",
             "href": "/",
             "url": "assets/img/icons/icon_black.svg",
             "width": "32"
+        }
+    },
+    "flex-layout.row#desktop__header--navigation-links": {
+        "title": "Navigation Links Container Row",
+        "children": [
+            "rich-text#navigation-links__trends",
+            "rich-text#navigation-links--collection",
+            "rich-text#navigation-links--offers",
+            "rich-text#navigation-links--monday",
+            "rich-text#navigation-links--never-say-never"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "horizontalAlign": "center",
+            "blockClass": "desktop__header--navigation-links"
+        }
+    },
+    "rich-text#navigation-links__trends": {
+        "title": "Trends Navigation Link",
+        "props": {
+            "text": "Tendencias de ItGlobers",
+            "blockClass": "navigation-links"
+        }
+    },
+    "rich-text#navigation-links--collection": {
+        "title": "Monthly Collection Navigation Link",
+        "props": {
+            "text": "Colección del mes",
+            "blockClass": "navigation-links"
+        }
+    },
+    "rich-text#navigation-links--offers": {
+        "title": "January Offers Navigation Link",
+        "props": {
+            "text": "Ofertas de enero",
+            "blockClass": "navigation-links",
+            "textAlignment": "RIGHT"
+        }
+    },
+    "rich-text#navigation-links--monday": {
+        "title": "Cyber Monday Navigation Link",
+        "props": {
+            "text": "Cyber Monday",
+            "blockClass": "navigation-links"
+        }
+    },
+    "rich-text#navigation-links--never-say-never": {
+        "title": "Never Say Never Navigation Link",
+        "props": {
+            "text": "Never say never",
+            "blockClass": "navigation-links"
+        }
+    },
+    "search-bar#desktop": {
+        "props": {
+            "maxWidth": 280,
+            "placeholder": "Search products...."
+        }
+    },
+    "minicart.v2": {
+        "props": {}
+    },
+    "login": {
+        "props": {
+            "accountOptionLinks": {
+                "label": "Login"
+            }
         }
     }
 }

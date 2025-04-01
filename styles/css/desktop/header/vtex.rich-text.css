@@ -1,0 +1,27 @@
+.paragraph--navigation-links {
+    font-family   : "Lexend";
+    font-weight   : 400;
+    font-size     : 12px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    margin        : 0;
+    border-bottom : 2px solid transparent;
+    transition    : 0.3s ease;
+    cursor        : pointer;
+    color         : #1D2734;
+}
+
+.paragraph--navigation-links:hover {
+    border-bottom: 2px solid #1D2734;
+}
+
+.paragraph--category-description {
+    color         : #1D2734;
+    font-family   : "Lexend";
+    font-weight   : 300;
+    font-size     : 12px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    margin        : 0;
+    margin-top    : 4px;
+}

@@ -1,5 +1,5 @@
 {
-  "header": {
+  "header#global": {
     "blocks": [
       "header-layout.desktop",
       "header-layout.mobile"
@@ -10,31 +10,6 @@
       "header-layout.desktop",
       "header-layout.mobile"
     ]
-  },
-  "header-layout.mobile": {
-    "children": [
-      "sticky-layout#mobile"
-    ]
-  },
-  "sticky-layout#mobile": {
-    "children": [
-      "flex-layout.row#mobile"
-    ]
-  },
-  "flex-layout.row#mobile": {
-    "children": [
-      "drawer",
-      "logo",
-      "flex-layout.col#spacer",
-      "login",
-      "minicart.v2"
-    ],
-    "props": {
-      "blockClass": "main-header-mobile",
-      "preventHorizontalStretch": true,
-      "preserveLayoutOnMobile": true,
-      "fullWidth": true
-    }
   },
   "drawer": {
     "children": []

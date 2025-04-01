@@ -1,0 +1,21 @@
+.container :global(.vtex-button) {
+    background   : #1D2734;
+    width        : 80px;
+    height       : 40px;
+    border-radius: 40px;
+    border       : 1px solid #1D2734;
+}
+
+.label {
+    color         : white;
+    padding       : 0;
+    text-transform: capitalize;
+    font-weight   : 300;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+}
+
+.contentForm {
+    background: skyblue;
+}

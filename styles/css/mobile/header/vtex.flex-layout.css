@@ -1,0 +1,8 @@
+.flexRow--row1-mobile {
+    width: 100%;
+}
+
+.flexRow--row1-mobile :global(.vtex-store-components-3-x-container) {
+    padding-left : 19px;
+    padding-right: 16px;
+}
