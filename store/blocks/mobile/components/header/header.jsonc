@@ -2,7 +2,8 @@
     "header-layout.mobile": {
         "title": "mobile Header Layout",
         "children": [
-            "header-row#1-mobile"
+            "header-row#1-mobile",
+            "header-row#2-mobile"
         ],
         "props": {
             "sticky": true,
@@ -31,14 +32,22 @@
             "blockClass": "row1-mobile"
         },
         "children": [
-            "flex-layout.col#logo-mobile",
+            "flex-layout.row#logo-mobile",
             "flex-layout.row#search-mobile"
         ]
     },
-    "flex-layout.col#logo-mobile": {
+    "flex-layout.row#logo-mobile": {
         "children": [
+            "logo",
             "logo"
-        ]
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colJustify": "content",
+            "preventHorizontalStretch": false,
+            "preventVerticalStretch": true,
+            "colSizing": "auto"
+        }
     },
     "flex-layout.row#search-mobile": {
         "children": [
