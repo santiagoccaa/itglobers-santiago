@@ -10,7 +10,10 @@
     "flex-layout.row#desktop__result": {
         "children": [
             "flex-layout.col#desktop__result__filter"
-        ]
+        ],
+        "props": {
+            "blockClass": "desktop__result"
+        }
     },
     "flex-layout.col#desktop__result__filter": {
         "children": [
