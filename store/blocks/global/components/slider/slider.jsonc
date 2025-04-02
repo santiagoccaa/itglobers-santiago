@@ -17,10 +17,10 @@
         "children": [
             "rich-text#content--title"
         ],
-        "props":{
-            "width":"100%",
-            "fullWidth":true,
-            "blockClass":"slider__content__title"
+        "props": {
+            "width": "100%",
+            "fullWidth": true,
+            "blockClass": "slider__content__title"
         }
     },
     "rich-text#content--title": {
@@ -77,7 +77,7 @@
         "title": "content card #1",
         "children": [
             "flex-layout.col#card-1--image",
-            "flex-layout.col#card-1--desription",
+            "flex-layout.row#title_icon",
             "link#card-1--button"
         ],
         "props": {
@@ -102,14 +102,26 @@
     },
     "flex-layout.row#title_icon": {
         "children": [
-            "flex-layout.col#card-1--desription"
+            "flex-layout.col#card-1--desription",
+            "image#icon--image"
         ]
     },
     "flex-layout.col#card-1--desription": {
         "children": [
             "rich-text#card-1--title",
             "rich-text#card-1--description"
-        ]
+        ],
+        "props": {
+            "width": "80%"
+        }
+    },
+    "image#icon--image": {
+        "title": "icon description product",
+        "props": {
+            "src": "assets/img/slider/artwork-trailing.svg",
+            "width": "48px",
+            "height": "48px"
+        }
     },
     "rich-text#card-1--title": {
         "title": "titulo card product",
