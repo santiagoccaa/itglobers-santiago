@@ -1,0 +1,60 @@
+{
+    "responsive-layout.mobile#hero": {
+        "children": [
+            "flex-layout.row#mobile__hero__content"
+        ]
+    },
+    "flex-layout.row#mobile__hero__content": {
+        "children": [
+            "flex-layout.col#content__mobile__text",
+            "flex-layout.col#hero--image-right",
+            "link#hero__mobile__button-buy"
+        ],
+        "props":{
+            "blockClass":"mobile__hero__content"
+        }
+    },
+    "flex-layout.col#content__mobile__text": {
+        "title": "title, subtitle, description hero section",
+        "children": [
+            "rich-text#hero__mobile__text--title",
+            "rich-text#hero__mobile__text--subtitle",
+            "rich-text#hero__mobile__text--description"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "colJustify": "center",
+            "horizontalAlign": "center",
+            "blockClass":"content__mobile__text"
+        }
+    },
+    "rich-text#hero__mobile__text--title": {
+        "title": "titulo",
+        "props": {
+            "text": "!WATCH",
+            "blockClass": "mobile__text--title"
+        }
+    },
+    "rich-text#hero__mobile__text--subtitle": {
+        "title": "subtitulo",
+        "props": {
+            "text": "ULTRA 2",
+            "blockClass": "mobile__text--subtitle"
+        }
+    },
+    "rich-text#hero__mobile__text--description": {
+        "title": "description",
+        "props": {
+            "text": "An amazing product.",
+            "blockClass": "mobile__text--description"
+        }
+    },
+    "link#hero__mobile__button-buy": {
+        "title": "hero button buy",
+        "props": {
+            "href": "/",
+            "label": "",
+            "blockClass":"hero__mobile__button-buy"
+        }
+    }
+}

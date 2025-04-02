@@ -1,0 +1,98 @@
+{
+    "responsive-layout.desktop#hero": {
+        "children": [
+            "flex-layout.row#desktop__hero"
+        ]
+    },
+    "flex-layout.row#desktop__hero": {
+        "title": "hero section desktop",
+        "children": [
+            "flex-layout.col#hero--image-left",
+            "flex-layout.row#hero__content__text",
+            "flex-layout.col#hero--image-right"
+        ],
+        "props": {
+            "colJustify": "between",
+            "alignItems": "center",
+            "preventVerticalStretch": true,
+            "blockClass": "desktop__hero"
+        }
+    },
+    "flex-layout.col#hero--image-left": {
+        "children": [
+            "image#hero__image-left"
+        ]
+    },
+    "image#hero__image-left": {
+        "title": "Image hero section left",
+        "props": {
+            "src": "assets/img/hero/img-left.svg",
+            "blockClass": "hero--image"
+        }
+    },
+    "flex-layout.col#hero--image-right": {
+        "children": [
+            "image#hero__image-right"
+        ]
+    },
+    "image#hero__image-right": {
+        "title": "image hero section right",
+        "props": {
+            "src": "assets/img/hero/img-right.svg",
+            "blockClass": "hero--image"
+        }
+    },
+    "flex-layout.row#hero__content__text": {
+        "children": [
+            "flex-layout.col#content__text"
+        ],
+        "props": {
+            "width": "34%",
+            "blockClass": "hero__content__text",
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#content__text": {
+        "title": "title, subtitle, description hero section",
+        "children": [
+            "rich-text#text--title",
+            "rich-text#text--subtitle",
+            "rich-text#text--description",
+            "link#hero--button-buy"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "colJustify": "center",
+            "horizontalAlign": "center"
+        }
+    },
+    "rich-text#text--title": {
+        "title": "titulo",
+        "props": {
+            "text": "!WATCH",
+            "blockClass":"text--title"
+        }
+    },
+    "rich-text#text--subtitle": {
+        "title": "subtitulo",
+        "props": {
+            "text": "ULTRA 2",
+            "blockClass":"text--subtitle"
+        }
+    },
+    "rich-text#text--description": {
+        "title": "description",
+        "props": {
+            "text": "An amazing product.",
+            "blockClass":"text--description"
+        }
+    },
+    "link#hero--button-buy": {
+        "title": "hero button buy",
+        "props": {
+            "href": "/",
+            "label": "Comprar",
+            "blockClass":"hero--button-buy"
+        }
+    }
+}

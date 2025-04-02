@@ -1,0 +1,136 @@
+{
+    "flex-layout.row#home__slider": {
+        "children": [
+            "flex-layout.col#home__slider__content"
+        ]
+    },
+    "flex-layout.col#home__slider__content": {
+        "children": [
+            "flex-layout.col#slider__content__title",
+            "slider-layout#content--slider"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "flex-layout.col#slider__content__title": {
+        "children": [
+            "rich-text#content--title"
+        ],
+        "props":{
+            "width":"100%",
+            "fullWidth":true,
+            "blockClass":"slider__content__title"
+        }
+    },
+    "rich-text#content--title": {
+        "title": "title section slider",
+        "props": {
+            "text": "An amazing product.",
+            "blockClass": "content--title"
+        }
+    },
+    "slider-layout#content--slider": {
+        "title": "Slider home",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 3,
+                "tablet": 2,
+                "phone": 1
+            },
+            "infinite": true,
+            "blockClass": "desktop__slider",
+            "centerMode": "to-the-left"
+        },
+        "children": [
+            "flex-layout.row#slider--card",
+            "flex-layout.row#slider--card",
+            "flex-layout.row#slider--card",
+            "flex-layout.row#slider--card",
+            "flex-layout.row#slider--card",
+            "flex-layout.row#slider--card",
+            "flex-layout.row#slider--card",
+            "flex-layout.row#slider--card",
+            "flex-layout.row#slider--card",
+            "flex-layout.row#slider--card",
+            "flex-layout.row#slider--card",
+            "flex-layout.row#slider--card",
+            "flex-layout.row#slider--card",
+            "flex-layout.row#slider--card",
+            "flex-layout.row#slider--card",
+            "flex-layout.row#slider--card",
+            "flex-layout.row#slider--card",
+            "flex-layout.row#slider--card",
+            "flex-layout.row#slider--card",
+            "flex-layout.row#slider--card",
+            "flex-layout.row#slider--card"
+        ]
+    },
+    "flex-layout.row#slider--card": {
+        "title": "card product",
+        "children": [
+            "flex-layout.col#card-1"
+        ],
+        "props": {}
+    },
+    "flex-layout.col#card-1": {
+        "title": "content card #1",
+        "children": [
+            "flex-layout.col#card-1--image",
+            "flex-layout.col#card-1--desription",
+            "link#card-1--button"
+        ],
+        "props": {
+            "blockClass": "card-1",
+            "horizontalAlign": "center",
+            "colSizing": "auto"
+        }
+    },
+    "flex-layout.col#card-1--image": {
+        "children": [
+            "image#card-1--image"
+        ],
+        "props": {
+            "colSizing": "auto"
+        }
+    },
+    "image#card-1--image": {
+        "title": "icon description product",
+        "props": {
+            "src": "assets/img/slider/crop.svg"
+        }
+    },
+    "flex-layout.row#title_icon": {
+        "children": [
+            "flex-layout.col#card-1--desription"
+        ]
+    },
+    "flex-layout.col#card-1--desription": {
+        "children": [
+            "rich-text#card-1--title",
+            "rich-text#card-1--description"
+        ]
+    },
+    "rich-text#card-1--title": {
+        "title": "titulo card product",
+        "props": {
+            "text": "Heading",
+            "blockClass": "card-1--title"
+        }
+    },
+    "rich-text#card-1--description": {
+        "title": "Description card product",
+        "props": {
+            "text": "Builder platform is made by, buildership platform is made by...",
+            "blockClass": "card-1--description"
+        }
+    },
+    "link#card-1--button": {
+        "title": "button view product",
+        "props": {
+            "href": "/",
+            "label": "Ver Precio",
+            "blockClass": "card-1--button"
+        }
+    }
+}

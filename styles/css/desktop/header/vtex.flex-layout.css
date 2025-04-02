@@ -14,10 +14,15 @@
     height       : 47px;
     align-items  : center;
     border-bottom: 3px solid transparent;
-    cursor: pointer;
-    transition    : 0.3s ease;
+    cursor       : pointer;
+    transition   : 0.3s ease;
 }
 
-.flexCol--desktop__category--content:hover { 
-    border-bottom: 3px solid #1D2734; 
+.flexCol--desktop__category--content:hover {
+    border-bottom: 3px solid #1D2734;
+}
+
+.flexRow--row1-desktop {
+    height    : 56px;
+    margin-top: 56px;
 }

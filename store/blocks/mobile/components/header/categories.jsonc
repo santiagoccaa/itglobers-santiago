@@ -14,7 +14,7 @@
             "slider-layout#mobile__menu--slider"
         ],
         "props": {
-            "blockClass": "row1-mobile"
+            "blockClass": "row2-mobile"
         }
     },
     "slider-layout#mobile__menu--slider": {

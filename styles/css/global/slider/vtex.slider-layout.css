@@ -1,0 +1,29 @@
+.sliderLayoutContainer {
+    width     : 1092px;
+    height    : 324px;
+}
+
+.sliderTrackContainer--desktop__slider {
+    height: 100%;
+}
+
+.sliderTrack--desktop__slider {
+    height: 100%;
+}
+
+.paginationDotsContainer--desktop__slider {
+    background: black;
+    bottom    : -26px;
+}
+
+/* .slide--desktop__slider--visible{
+    background: pink;
+} */
+
+.sliderLeftArrow{
+    left: -40px;
+}
+
+.sliderRightArrow{
+    right: -40px;
+}
