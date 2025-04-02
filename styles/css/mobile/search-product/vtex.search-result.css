@@ -1,11 +1,25 @@
 .orderByButton--mobile--order-by {
     background    : #E7E7E7;
     border-radius : 40px;
+    min-width     : 147px;
     padding-top   : 14px;
     padding-bottom: 14px;
     padding-left  : 12px;
     padding-right : 12px;
     border        : 1px solid #1D2734;
+}
+
+.orderByButton--mobile--order-by::before {
+    content          : "";
+    display          : inline-block;
+    margin-right     : 14px;
+    width            : 12px;
+    height           : 8px;
+    background-image : url('assets/img/icons/filtrosvg.svg');
+    background-size  : contain;
+    background-repeat: no-repeat;
+    margin-left      : 8px;
+    vertical-align   : middle;
 }
 
 .filterPopupTitle--mobile--order-by {
@@ -26,6 +40,8 @@
     display: none;
 }
 
-.gallery--whole{
-    margin-top: 12px;
+@media (max-width: 728px) {
+    .gallery--whole {
+        margin-top: 12px;
+    }
 }

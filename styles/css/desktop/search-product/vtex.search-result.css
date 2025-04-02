@@ -29,8 +29,15 @@
     width                     : 240px;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius : 8px;
-    overflow: hidden;
-    padding: 5px;
+    overflow                  : hidden;
+    padding                   : 5px;
+}
+
+@media (max-width: 1023px) {
+    .orderByOptionsContainer {
+        position: absolute;
+        left    : 0;
+    }
 }
 
 .orderByOptionItem {
@@ -42,13 +49,30 @@
     font-size     : 14px;
 }
 
-.filter__container--selectedFilters{
+.filter__container--selectedFilters {
     display: none;
 }
 
-.filter__container{
+.filter__container {
     border-bottom-style: none;
 }
+
 .filterTemplateOverflow {
     width: 184px;
+}
+
+.gallery {
+    margin-top: 0;
+}
+
+.galleryItem--normal {
+    padding-left : 2px;
+    padding-right: 2px;
+}
+
+@media (max-width: 728px) {
+    .galleryItem--normal {
+        padding-bottom: 6px;
+        padding-top   : 6px;
+    }
 }

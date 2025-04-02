@@ -26,19 +26,18 @@
         ],
         "props": {
             "colSizing": "equal",
-            "horizontalAlign": "center",
-            "blockClass": "mobile__filter-category",
-            "colGap": 4
+            "horizontalAlign": "left",
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch":true
         }
     },
     "filter-navigator.v3#mobile": {
         "props": {
-            "width": "50%"
+
         }
     },
     "order-by.v2#mobile": {
         "props": {
-            "width": "50%",
             "blockClass": "mobile--order-by"
         }
     },

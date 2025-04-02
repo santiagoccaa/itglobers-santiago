@@ -75,7 +75,7 @@
                     "component": "OneOrTwoLineSummary",
                     "itemsPerRow": {
                         "desktop": 3,
-                        "tablet": 3,
+                        "tablet": 2,
                         "mobile": 1
                     }
                 }
