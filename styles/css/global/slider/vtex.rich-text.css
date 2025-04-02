@@ -1,0 +1,29 @@
+.paragraph--card-1--title {
+    font-family   : "Lexend";
+    font-weight   : 600;
+    font-size     : 16px;
+    line-height   : 24px;
+    letter-spacing: 0px;
+    margin        : 0;
+    margin-left   : 13px;
+}
+
+.paragraph--card-1--description {
+    font-family   : "Lexend";
+    font-weight   : 300;
+    font-size     : 12px;
+    line-height   : 14px;
+    letter-spacing: 0px;
+    margin-left   : 13px;
+}
+
+.paragraph--content--title {
+    font-family   : "Lexend";
+    font-weight   : 500;
+    font-size     : 16px;
+    line-height   : 16px;
+    letter-spacing: 0px;
+    margin        : 0;
+    margin-top    : 40px;
+    margin-bottom : 18px;
+}

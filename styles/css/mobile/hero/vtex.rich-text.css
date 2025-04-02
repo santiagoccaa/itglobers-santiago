@@ -1,0 +1,30 @@
+.paragraph--mobile__text--title {
+    font-family   : "Lexend";
+    font-weight   : 600;
+    font-size     : 32px;
+    line-height   : 40px;
+    letter-spacing: 0px;
+    margin        : 0;
+}
+
+.paragraph--mobile__text--subtitle {
+    font-family   : "Lexend";
+    font-weight   : 300;
+    font-size     : 10px;
+    line-height   : 19px;
+    letter-spacing: 0px;
+    margin        : 0;
+    color         : #FF8324;
+    margin-top    : 8px;
+    margin-bottom : 8px;
+}
+
+.paragraph--mobile__text--description {
+    font-family   : "Lexend";
+    font-weight   : 300;
+    font-size     : 14px;
+    line-height   : 16.8px;
+    letter-spacing: 0px;
+    margin        : 0;
+    margin-bottom : 32px;
+}

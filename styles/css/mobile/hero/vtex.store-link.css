@@ -1,0 +1,23 @@
+.link--hero__mobile__button-buy {
+    max-width      : 80px;
+    min-height     : 48px;
+    border-radius  : 40px;
+    padding        : 10px;
+    border         : 1px solid #1D2734;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    text-decoration: none !important;
+}
+
+.link--hero__mobile__button-buy::after {
+    content          : "";
+    display          : inline-block;
+    background-image : url("assets/img/icons/arrow--right.svg");
+    background-size  : contain;
+    background-repeat: no-repeat;
+    width            : 20px;
+    height           : 20px;
+    margin-left      : 10px;
+    vertical-align   : middle;
+}
