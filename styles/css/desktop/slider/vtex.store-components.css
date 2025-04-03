@@ -1,0 +1,20 @@
+.imageElement--slider__cart__content--imag {
+    height    : 100%;
+    width     : 100%;
+    object-fit: cover;
+    display   : block;
+}
+
+.imageElement--slider__cart__content--icon {
+    margin-right: 13px;
+}
+
+
+@media (max-width:728px) {
+    .imageElement--slider__cart__content--imag {
+        min-height: 139px;
+        width     : 100%;
+        object-fit: cover;
+        display   : block;
+    }
+}

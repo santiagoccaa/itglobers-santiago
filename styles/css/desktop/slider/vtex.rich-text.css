@@ -1,4 +1,4 @@
-.paragraph--card-1--title {
+.paragraph--text_icon__text--title {
     font-family   : "Lexend";
     font-weight   : 600;
     font-size     : 16px;
@@ -8,7 +8,7 @@
     margin-left   : 13px;
 }
 
-.paragraph--card-1--description {
+.paragraph--text_icon__text--description {
     font-family   : "Lexend";
     font-weight   : 300;
     font-size     : 12px;
@@ -17,7 +17,7 @@
     margin-left   : 13px;
 }
 
-.paragraph--content--title {
+.paragraph--desktop__slider__content--title {
     font-family   : "Lexend";
     font-weight   : 500;
     font-size     : 16px;
