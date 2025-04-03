@@ -1,0 +1,17 @@
+.flexRow--slider__cart__content--image {
+    height: 186px;
+}
+
+.flexRowContent--slider__cart__content--image {
+    height: 100%;
+}
+
+@media (max-width:728px){
+    .flexRow--slider__cart__content--image {
+        height: 139px;
+    }
+    
+    .flexRowContent--slider__cart__content--image {
+        height: 100%;
+    }
+}

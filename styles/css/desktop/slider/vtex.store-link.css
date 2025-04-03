@@ -1,4 +1,4 @@
-.link--card-1--button {
+.link--slider__cart__content--button-shop {
     min-width       : 134px;
     min-height      : 43px;
     border-radius   : 40px;
@@ -12,7 +12,7 @@
     margin-bottom: 13px;
 }
 
-.label--card-1--button {
+.label--slider__cart__content--button-shop {
     font-family   : "Lexend";
     font-weight   : 400;
     font-size     : 12px;
@@ -22,7 +22,7 @@
     color         : white;
 }
 
-.label--card-1--button::after {
+.label--slider__cart__content--button-shop::after {
     content          : "";
     display          : inline-block;
     background-image : url("assets/img/icons/arrow--right.svg");
