@@ -1,4 +1,9 @@
 {
+    "responsive-layout.desktop#desktop--slider": {
+        "children": [
+            "flex-layout.row#home__slider"
+        ]
+    },
     "flex-layout.row#home__slider": {
         "children": [
             "flex-layout.col#home__slider__content"
@@ -36,11 +41,11 @@
             "itemsPerPage": {
                 "desktop": 3,
                 "tablet": 2,
-                "phone": 1
+                "mobile": 1
             },
             "infinite": true,
             "blockClass": "desktop__slider",
-            "centerMode": "to-the-left"
+            "centerMode": "mobile"
         },
         "children": [
             "flex-layout.row#slider--card",

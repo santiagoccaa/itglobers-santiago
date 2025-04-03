@@ -1,15 +1,20 @@
 @media (max-width: 728px) {
-    .searchBarInnerContainer :global(.vtex-styleguide-9-x-input) {
+    .autoCompleteOuterContainer :global(.vtex-styleguide-9-x-input) {
         display: none;
-
     }
 
-    .searchBarInnerContainer :global(.vtex-input__suffix) {
+    .autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+        border: none;
+    }
+
+    .autoCompleteOuterContainer :global(.vtex-input__suffix) {
         background: white;
         padding   : 0;
     }
 
-    .logoContainer {
-        padding: 0;
+    .autoCompleteOuterContainer :global(.vtex-store-components-3-x-searchIcon) {
+        width : 24px;
+        height: 24px;
     }
+
 }
