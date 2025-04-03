@@ -5,8 +5,12 @@
             "flex-layout.row#slider-categories"
         ],
         "props": {
-            "fullWidth": "true",
-            "horizontalAlign": "center"
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true,
+            "blockClass": "row2-mobile"
         }
     },
     "flex-layout.row#slider-categories": {

@@ -7,11 +7,12 @@
     "flex-layout.row#mobile__hero__content": {
         "children": [
             "flex-layout.col#content__mobile__text",
-            "flex-layout.col#hero--image-right",
             "link#hero__mobile__button-buy"
         ],
-        "props":{
-            "blockClass":"mobile__hero__content"
+        "props": {
+            "blockClass": "mobile__hero__content",
+            "verticalAlign": "space-between",
+            "preventVerticalStretch": false
         }
     },
     "flex-layout.col#content__mobile__text": {
@@ -25,7 +26,7 @@
             "colSizing": "auto",
             "colJustify": "center",
             "horizontalAlign": "center",
-            "blockClass":"content__mobile__text"
+            "blockClass": "content__mobile__text"
         }
     },
     "rich-text#hero__mobile__text--title": {
@@ -54,7 +55,7 @@
         "props": {
             "href": "/",
             "label": "",
-            "blockClass":"hero__mobile__button-buy"
+            "blockClass": "hero__mobile__button-buy"
         }
     }
 }

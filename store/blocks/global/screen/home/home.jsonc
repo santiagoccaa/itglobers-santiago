@@ -3,7 +3,7 @@
         "blocks": [
             "responsive-layout.desktop#hero",
             "responsive-layout.mobile#hero",
-            "flex-layout.row#home__slider"
+            "responsive-layout.desktop#desktop--slider"
         ]
     }
 }
