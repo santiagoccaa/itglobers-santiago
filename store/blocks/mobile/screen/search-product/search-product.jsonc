@@ -1,5 +1,6 @@
 {
     "search-result-layout.mobile#search": {
+        "title": "Search Results - Mobile",
         "children": [
             "flex-layout.row#mobile__result"
         ],
@@ -8,40 +9,51 @@
         }
     },
     "flex-layout.row#mobile__result": {
+        "title": "Results Row - Mobile",
         "children": [
             "flex-layout.col#mobile__result__filter"
         ]
     },
     "flex-layout.col#mobile__result__filter": {
+        "title": "Filters and Results Column - Mobile",
         "children": [
+            "breadcrumb.search",
             "rich-text#title--filter--text",
-            "flex-layout.row#mobile__filter-category",
-            "search-content#mobile__content"
+            "flex-layout.row#mobile__filter_category",
+            "search-content#mobile__result--content"
         ]
     },
-    "flex-layout.row#mobile__filter-category": {
+    "flex-layout.row#mobile__filter_category": {
+        "title": "Category and Filters Row - Mobile",
         "children": [
-            "order-by.v2#mobile",
-            "filter-navigator.v3#mobile"
+            "order-by.v2#mobile--category",
+            "filter-navigator.v3#mobile--filter"
         ],
         "props": {
             "colSizing": "equal",
-            "horizontalAlign": "left",
+            "horizontalAlign": {
+                "tablet": "between",
+                "mobile": "left"
+            },
             "preserveLayoutOnMobile": true,
-            "preventHorizontalStretch":true
+            "preventHorizontalStretch": true,
+            "colGap":4
         }
     },
-    "filter-navigator.v3#mobile": {
+    "filter-navigator.v3#mobile--filter": {
+        "title": "Filter Navigator - Mobile",
         "props": {
-
+            "blockClass": "mobile--filter"
         }
     },
-    "order-by.v2#mobile": {
+    "order-by.v2#mobile--category": {
+        "title": "Category Sorting - Mobile",
         "props": {
             "blockClass": "mobile--order-by"
         }
     },
-    "search-content#mobile__content": {
+    "search-content#mobile__result--content": {
+        "title": "Search Results Content - Mobile",
         "blocks": [
             "gallery",
             "not-found"
