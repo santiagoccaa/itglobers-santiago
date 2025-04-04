@@ -1,7 +1,7 @@
 .flexRow--mobile__hero__content {
     height             : 500px;
-    background-image   : url("assets/img/hero/hero-mobile.svg");
-    background-size    : cover;
+    background-image   : url("assets/img/hero/hero-mobile.jpg");
+    background-size    : contain;
     background-position: center;
     background-repeat  : no-repeat;
 }

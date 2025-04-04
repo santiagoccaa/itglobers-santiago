@@ -1,20 +1,16 @@
 {
-    // "responsive-layout.desktop#hero": {
-    //     "children": [
-    //         "flex-layout.row#desktop__hero"
-    //     ]
-    // },
-    // "responsive-layout.tablet#hero": {
-    //     "children": [
-    //         "flex-layout.row#desktop__hero"
-    //     ]
-    // },
-    "flex-layout.row#desktop__hero": {
-        "title": "hero section desktop",
+    "responsive-layout.desktop#hero": {
+        "title": "Hero Section - Desktop Layout",
         "children": [
-            "flex-layout.col#hero--image-left",
-            "flex-layout.row#hero__content__text",
-            "flex-layout.col#hero--image-right"
+            "flex-layout.row#desktop__hero"
+        ]
+    },
+    "flex-layout.row#desktop__hero": {
+        "title": "Hero Section - Desktop Main Row",
+        "children": [
+            "flex-layout.col#destop__hero--image-left",
+            "flex-layout.row#desktop__hero--center-text",
+            "flex-layout.col#desktop__hero--image-right"
         ],
         "props": {
             "colJustify": "between",
@@ -23,33 +19,36 @@
             "blockClass": "desktop__hero"
         }
     },
-    "flex-layout.col#hero--image-left": {
+    "flex-layout.col#destop__hero--image-left": {
+        "title": "Hero Section - Left Image Column",
         "children": [
-            "image#hero__image-left"
+            "image#image-left"
         ]
     },
-    "image#hero__image-left": {
-        "title": "Image hero section left",
+    "image#image-left": {
+        "title": "Hero Section - Left Image",
         "props": {
-            "src": "assets/img/hero/img-left.svg",
+            "src": "assets/img/hero/img-left.jpg",
             "blockClass": "hero--image"
         }
     },
-    "flex-layout.col#hero--image-right": {
+    "flex-layout.col#desktop__hero--image-right": {
+        "title": "Hero Section - Right Image Column",
         "children": [
-            "image#hero__image-right"
+            "image#image-right"
         ]
     },
-    "image#hero__image-right": {
-        "title": "image hero section right",
+    "image#image-right": {
+        "title": "Hero Section - Right Image",
         "props": {
-            "src": "assets/img/hero/img-right.svg",
+            "src": "assets/img/hero/img-right.jpg",
             "blockClass": "hero--image"
         }
     },
-    "flex-layout.row#hero__content__text": {
+    "flex-layout.row#desktop__hero--center-text": {
+        "title": "Hero Section - Center Text Row",
         "children": [
-            "flex-layout.col#content__text"
+            "flex-layout.col#center-text__content"
         ],
         "props": {
             "width": "34%",
@@ -57,13 +56,13 @@
             "horizontalAlign": "center"
         }
     },
-    "flex-layout.col#content__text": {
-        "title": "title, subtitle, description hero section",
+    "flex-layout.col#center-text__content": {
+        "title": "Hero Section - Text Content Column",
         "children": [
-            "rich-text#text--title",
-            "rich-text#text--subtitle",
-            "rich-text#text--description",
-            "link#hero--button-buy"
+            "rich-text#center-text__content--title",
+            "rich-text#center-text__content--subtitle",
+            "rich-text#center-text__content--description",
+            "link#center-text__content--button-buy"
         ],
         "props": {
             "colSizing": "auto",
@@ -71,33 +70,33 @@
             "horizontalAlign": "center"
         }
     },
-    "rich-text#text--title": {
-        "title": "titulo",
+    "rich-text#center-text__content--title": {
+        "title": "Hero Section - Main Title",
         "props": {
             "text": "!WATCH",
-            "blockClass":"text--title"
+            "blockClass": "text--title"
         }
     },
-    "rich-text#text--subtitle": {
-        "title": "subtitulo",
+    "rich-text#center-text__content--subtitle": {
+        "title": "Hero Section - Subtitle",
         "props": {
             "text": "ULTRA 2",
-            "blockClass":"text--subtitle"
+            "blockClass": "text--subtitle"
         }
     },
-    "rich-text#text--description": {
-        "title": "description",
+    "rich-text#center-text__content--description": {
+        "title": "Hero Section - Description",
         "props": {
             "text": "An amazing product.",
-            "blockClass":"text--description"
+            "blockClass": "text--description"
         }
     },
-    "link#hero--button-buy": {
-        "title": "hero button buy",
+    "link#center-text__content--button-buy": {
+        "title": "Hero Section - Call to Action Button",
         "props": {
             "href": "/",
             "label": "Comprar",
-            "blockClass":"hero--button-buy"
+            "blockClass": "hero--button-buy"
         }
     }
 }
