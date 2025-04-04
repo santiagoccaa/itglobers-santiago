@@ -1,9 +1,14 @@
 {
-    "responsive-layout.desktop#hero": {
-        "children": [
-            "flex-layout.row#desktop__hero"
-        ]
-    },
+    // "responsive-layout.desktop#hero": {
+    //     "children": [
+    //         "flex-layout.row#desktop__hero"
+    //     ]
+    // },
+    // "responsive-layout.tablet#hero": {
+    //     "children": [
+    //         "flex-layout.row#desktop__hero"
+    //     ]
+    // },
     "flex-layout.row#desktop__hero": {
         "title": "hero section desktop",
         "children": [

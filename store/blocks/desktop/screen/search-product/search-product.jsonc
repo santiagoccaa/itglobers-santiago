@@ -17,9 +17,16 @@
     },
     "flex-layout.col#desktop__result__filter": {
         "children": [
+            "breadcrumb.search",
             "flex-layout.row#result__filter--title--filter",
             "flex-layout.row#category__result"
         ]
+    },
+    "breadcrumb.search": {
+        "props": {
+            "showOnMobile": true,
+            "homeIconSize": 16
+        }
     },
     "flex-layout.row#result__filter--title--filter": {
         "children": [

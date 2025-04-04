@@ -2,15 +2,21 @@
     margin-top: 167px;
 }
 
-.flexRowContent--desktop__hero {
-    height    : 422px;
+@media (max-width: 1024px) {
+    .flexRow--desktop__hero {
+        margin-top: 0;
+    }
 }
 
-.flexRow--hero__content__text{
-    display: flex;
+.flexRowContent--desktop__hero {
+    height: 422px;
+}
+
+.flexRow--hero__content__text {
+    display    : flex;
     align-items: center;
 }
 
-.flexCol--slider__content__title{
+.flexCol--slider__content__title {
     width: 1092px;
 }

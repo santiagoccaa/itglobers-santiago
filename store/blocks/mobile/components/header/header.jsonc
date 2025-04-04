@@ -6,7 +6,6 @@
             "header-row#2-mobile"
         ],
         "props": {
-            "sticky": true,
             "zIndex": 999
         }
     },

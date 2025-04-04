@@ -1,0 +1,35 @@
+.link--1 {
+    font-family   : "Lexend";
+    font-weight   : 300;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    color         : #1D2734;
+}
+
+.link--2 {
+    font-family   : "Lexend";
+    font-weight   : 300;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    color         : #1D2734;
+}
+
+.container :global(.vtex-breadcrumb-1-x-caretIcon) {
+    display: none;
+}
+
+.container :global(.vtex-breadcrumb-1-x-arrow--1)::before {
+    content  : "/";
+    font-size: 18px;
+}
+
+.container :global(.vtex-breadcrumb-1-x-arrow--2)::before {
+    content  : "/";
+    font-size: 18px;
+}
+
+.container :global(.vtex-breadcrumb-1-x-homeIcon) {
+    color: #FF8324;
+}

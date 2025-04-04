@@ -1,5 +1,5 @@
 {
-    "responsive-layout.mobile#hero": {
+    "responsive-layout.phone#hero": {
         "children": [
             "flex-layout.row#mobile__hero__content"
         ]
