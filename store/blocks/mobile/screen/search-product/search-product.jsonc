@@ -18,7 +18,7 @@
         "title": "Filters and Results Column - Mobile",
         "children": [
             "breadcrumb.search",
-            "rich-text#title--filter--text",
+            "search-title.v2",
             "flex-layout.row#mobile__filter_category",
             "search-content#mobile__result--content"
         ]

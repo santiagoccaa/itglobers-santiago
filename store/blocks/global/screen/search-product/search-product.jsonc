@@ -1,5 +1,6 @@
 {
-    "store.search": {
+    "store.search#global__search-result": {
+        "title": "Global Search Result - Store",
         "blocks": [
             "search-result-layout"
         ],
@@ -11,6 +12,7 @@
         }
     },
     "store.search#category": {
+        "title": "Category Search Result - Store",
         "blocks": [
             "search-result-layout"
         ],
@@ -22,6 +24,7 @@
         }
     },
     "store.search#brand": {
+        "title": "Brand Search Result - Store",
         "blocks": [
             "search-result-layout"
         ],
@@ -33,6 +36,7 @@
         }
     },
     "store.search#department": {
+        "title": "Department Search Result - Store",
         "blocks": [
             "search-result-layout"
         ],
@@ -44,6 +48,7 @@
         }
     },
     "store.search#subcategory": {
+        "title": "Subcategory Search Result - Store",
         "blocks": [
             "search-result-layout"
         ],
@@ -55,19 +60,18 @@
         }
     },
     "search-result-layout": {
+        "title": "Search Result Layout - Screens",
         "blocks": [
             "search-result-layout.desktop#search",
             "search-result-layout.mobile#search",
             "search-not-found-layout"
         ]
     },
-    "rich-text#title--filter--text": {
-        "props": {
-            "text": "Clothing, Shoes and Accesories",
-            "blockClass": "title--filter--text"
-        }
+    "search-title.v2": {
+        "title": "Department Title - Search Result"
     },
     "gallery": {
+        "title": "Product Gallery - Search Result",
         "props": {
             "layouts": [
                 {
@@ -84,20 +88,23 @@
         }
     },
     "product-summary.shelf#global__result": {
+        "title": "Product Summary Shelf - Global Result",
         "children": [
             "flex-layout.row#product-summary"
         ]
     },
     "flex-layout.row#product-summary": {
+        "title": "Product Summary Row - Layout",
         "children": [
             "product-summary-image",
-            "flex-layout.col#descripcion_price"
+            "flex-layout.col#product-summary--descripcion_price"
         ],
         "props": {
             "blockClass": "product-summary"
         }
     },
-    "flex-layout.col#descripcion_price": {
+    "flex-layout.col#product-summary--descripcion_price": {
+        "title": "Product Description & Price Column - Summary",
         "children": [
             "product-summary-description",
             "product-summary-price"

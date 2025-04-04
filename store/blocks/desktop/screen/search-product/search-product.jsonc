@@ -1,5 +1,6 @@
 {
     "search-result-layout.desktop#search": {
+        "title": "Desktop Search Result Layout",
         "children": [
             "flex-layout.row#desktop__result"
         ],
@@ -8,6 +9,7 @@
         }
     },
     "flex-layout.row#desktop__result": {
+        "title": "Desktop Search Result Row",
         "children": [
             "flex-layout.col#desktop__result__filter"
         ],
@@ -16,19 +18,22 @@
         }
     },
     "flex-layout.col#desktop__result__filter": {
+        "title": "Desktop Search Result Filter Column",
         "children": [
-            "breadcrumb.search",
-            "flex-layout.row#result__filter--title--filter",
+            "breadcrumb.search#desktop__result__filter--search",
+            "flex-layout.row#result__filter--title_filter",
             "flex-layout.row#category__result"
         ]
     },
-    "breadcrumb.search": {
+    "breadcrumb.search#desktop__result__filter--search": {
+        "title": "Breadcrumb Search - Desktop Filter",
         "props": {
             "showOnMobile": true,
             "homeIconSize": 16
         }
     },
-    "flex-layout.row#result__filter--title--filter": {
+    "flex-layout.row#result__filter--title_filter": {
+        "title": "Result Filter Title Row",
         "children": [
             "flex-layout.col#count-title",
             "order-by.v2"
@@ -38,12 +43,14 @@
         }
     },
     "flex-layout.col#count-title": {
+        "title": "Search Result Count Column",
         "children": [
-            "rich-text#title--filter--text",
+            "search-title.v2",
             "total-products.v2"
         ]
     },
     "flex-layout.row#category__result": {
+        "title": "Category Result Row",
         "children": [
             "filter-navigator.v3#desktop",
             "search-content#desktop__content"
@@ -53,12 +60,14 @@
         }
     },
     "search-content#desktop__content": {
+        "title": "Desktop Search Content",
         "blocks": [
             "gallery",
             "not-found"
         ]
     },
     "filter-navigator.v3#desktop": {
+        "title": "Desktop Filter Navigator",
         "props": {
             "width": "20%",
             "showFacetTitle": false,
