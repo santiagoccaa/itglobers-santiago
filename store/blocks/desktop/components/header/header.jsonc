@@ -122,16 +122,6 @@
             "placeholder": "Search products...."
         }
     },
-    "minicart.v2": {
-        "props": {
-            "MinicartIcon": "icon-cart#desktop__header__minicart-icon"
-        }
-    },
-    "icon-cart#desktop__header__minicart-icon": {
-        "props": {
-            "size": 16
-        }
-    },
     "login": {
         "props": {
             "accountOptionLinks": {

@@ -1,0 +1,21 @@
+.drawerContent {
+    background: white;
+}
+
+.closeIconContainer {
+    background: red;
+    max-height: 172px;
+    min-height: 172px;
+    position  : relative;
+}
+
+.closeIconButton {
+    position        : absolute;
+    bottom          : 0;
+    right           : 16px;
+    width           : 32px;
+    height          : 32px;
+    background-color: #F5F4F6;
+    border-radius   : 100%;
+    padding         : 0;
+}
