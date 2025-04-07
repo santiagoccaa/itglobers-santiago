@@ -6,7 +6,7 @@
 @media (max-width: 1024px) {
     :local(body div[class="vtex-render__container-id-search-result-layout"]) {
         background: white;
-        margin-top: 0;
+        margin-top: 128px;
     }
 }
 

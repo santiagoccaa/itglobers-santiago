@@ -3,20 +3,13 @@
         "title": "Desktop Header Layout",
         "children": [
             "header-force-center"
-        ],
-        "props": {
-            "sticky": true,
-            "zIndex": 999
-        }
+        ]
     },
     "header-force-center": {
         "children": [
             "header-row#1-desktop",
             "header-row#2-desktop"
-        ],
-        "props": {
-            "sticky": true
-        }
+        ]
     },
     "header-row#1-desktop": {
         "title": "Desktop Header Row 1",
