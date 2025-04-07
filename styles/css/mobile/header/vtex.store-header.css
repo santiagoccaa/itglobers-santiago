@@ -1,10 +1,10 @@
-.headerRowContainer--row1-mobile {
-    height    : 72px;
-    padding-left: 8px;
-    padding-right: 8px;
+.headerRowContainer--mobile__hero__content {
+    padding-left   : 8px;
+    padding-right  : 8px;
+    padding-top    : 8px;
     justify-content: space-between;
 }
 
 .headerRowContainer--row2-mobile {
-    height    : 56px;
+    height: 56px;
 }

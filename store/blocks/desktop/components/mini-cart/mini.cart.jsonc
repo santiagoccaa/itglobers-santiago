@@ -1,13 +1,8 @@
 {
     "minicart.v2": {
         "props": {
-            "MinicartIcon": "icon-cart#desktop__header__minicart-icon",
-            "maxDrawerWidth": "400px"
-        }
-    },
-    "icon-cart#desktop__header__minicart-icon": {
-        "props": {
-            "size": 16
+            "maxDrawerWidth": "400px",
+            "blockClass":"desktop--minicart"
         }
     }
 }

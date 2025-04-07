@@ -6,20 +6,13 @@
         ],
         "props": {
             "horizontalAlign": "center",
-            "verticalAlign": "center",
-            "preventHorizontalStretch": true,
-            "preventVerticalStretch": true,
-            "fullWidth": true,
-            "blockClass": "row2-mobile"
+            "fullWidth": true
         }
     },
     "flex-layout.row#slider-categories": {
         "children": [
             "slider-layout#mobile__menu--slider"
-        ],
-        "props": {
-            "blockClass": "row2-mobile"
-        }
+        ]
     },
     "slider-layout#mobile__menu--slider": {
         "title": "categories slider",
