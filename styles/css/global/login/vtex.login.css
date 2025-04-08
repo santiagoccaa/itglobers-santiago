@@ -1,0 +1,281 @@
+.container :global(.vtex-button) {
+    background   : #1D2734;
+    width        : 80px;
+    height       : 40px;
+    border-radius: 40px;
+    border       : 1px solid #1D2734;
+}
+
+.label {
+    color         : white;
+    padding       : 0;
+    text-transform: capitalize;
+    font-weight   : 300;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    display       : flex;
+}
+
+.arrowUp {
+    display: none;
+}
+
+.content--loginOptions,
+.content--emailVerification {
+    width                     : 423px;
+    background                : #F5F4F6;
+    padding-left              : 28px;
+    padding-right             : 27px;
+    padding-top               : 0;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius : 8px;
+    margin-top                : 60px;
+}
+
+.formTitle {
+    font-family   : "Lexend";
+    font-weight   : 300;
+    font-size     : 20px;
+    line-height   : 114.99999999999999%;
+    letter-spacing: 0px;
+    text-align    : center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    margin-top    : 16px;
+    margin-bottom : 24px;
+}
+
+.accessCodeOptionBtn,
+.emailPasswordOptionBtn,
+.googleOptionBtn,
+.facebookOptionBtn {
+    height       : 48px;
+    border-radius: 48px;
+}
+
+.accessCodeOptionBtn :local(button),
+.emailPasswordOptionBtn :local(button) {
+    height       : 48px;
+    background   : transparent;
+    border-radius: 40px;
+    border       : 1px solid #1D2734 !important;
+}
+
+.accessCodeOptionBtn :local(button):hover,
+.emailPasswordOptionBtn :local(button):hover {
+    background: white;
+}
+
+.accessCodeOptionBtn :local(div),
+.emailPasswordOptionBtn :local(div),
+.googleOptionBtn :local(span) {
+    text-transform: capitalize;
+    font-family   : "Lexend";
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    text-align    : center;
+    color         : #1D2734;
+}
+
+.googleOptionBtn :local(button) {
+    height       : 48px;
+    border-radius: 48px;
+    background   : white;
+    position     : relative;
+}
+
+.googleOptionBtn :local(svg) {
+    position : absolute;
+    top      : 12px;
+    left     : 22px;
+    transform: scale(1.2);
+}
+
+.facebookOptionBtn :local(button) {
+    height       : 48px;
+    border-radius: 48px;
+    background   : #1877F2;
+    position     : relative;
+}
+
+.facebookOptionBtn :local(svg) {
+    position     : absolute;
+    top          : 12px;
+    left         : 22px;
+    background   : white;
+    padding      : 4px;
+    border-radius: 100%;
+}
+
+.facebookOptionBtn :local(span) {
+    text-transform: capitalize;
+    font-family   : "Lexend";
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    text-align    : center;
+    color         : white;
+}
+
+.customOAuthOptionBtn {
+    display: none;
+}
+
+/* LOG ING */
+/*
++Email
+*/
+.inputContainerEmail {
+    width        : 328px;
+    height       : 48px;
+    border-radius: 40px;
+}
+
+.inputContainerEmail :local(div),
+.inputContainerPassword :local(div) {
+    height       : 48px;
+    border-radius: 40px;
+    outline      : none;
+    border       : none;
+    position     : relative;
+}
+
+.inputContainerEmail :local(input),
+.inputContainerPassword :local(input) {
+    height        : 100%;
+    border        : 1px solid #1D2734;
+    font-family   : "Lexend";
+    outline       : none;
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    text-align    : left;
+    border-radius : 40px;
+}
+
+.inputContainerPassword :local(span) {
+    position: absolute;
+    top     : 8px;
+    right   : 8px;
+}
+
+.forgotPasswordLink {
+    font-size      : 0;
+    position       : relative;
+    display        : flex;
+    justify-content: center;
+    width          : 100%;
+}
+
+.forgotPasswordLink::before {
+    content       : "Forgot your password?";
+    font-size     : 14px;
+    color         : inherit;
+    display       : inline-block;
+    font-family   : "Lexend";
+    font-weight   : 300;
+    font-size     : 14px;
+    line-height   : 20px;
+    letter-spacing: 0px;
+    text-align    : center;
+    color         : #1D2734;
+}
+
+.forgotPasswordLink::after {
+    content                  : "Reset Password";
+    font-family              : "Lexend";
+    font-weight              : 300;
+    font-size                : 14px;
+    line-height              : 20px;
+    letter-spacing           : 0%;
+    text-align               : center;
+    text-decoration          : underline;
+    text-decoration-style    : solid;
+    text-decoration-thickness: 0%;
+    color                    : #E56A54;
+    margin-left              : 8px;
+}
+
+.backButton {
+    position       : absolute;
+    top            : 16px;
+    left           : 28px;
+    border-radius  : 100%;
+    overflow       : hidden;
+    height         : 44px;
+    width          : 44px;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    font-size      : 40px;
+}
+
+.backButton :local(button) {
+    width : 44px;
+    height: 44px;
+    color : #0C2340;
+}
+
+.arrowBackIcon {
+    width : 20px;
+    height: 14px;
+}
+
+/* .formFooter :global(.t-small) {
+    display: none;
+} */
+
+.sendButton {
+    margin: 0;
+    width : 100%;
+}
+
+.sendButton :local(button) {
+    width          : 100%;
+    height         : 48px;
+    border-radius  : 40px;
+    border-width   : 1px;
+    background     : #1D2734;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+/* 
+.sendButton :local(button)::after {
+    content       : "Login";
+    font-family   : "Lexend";
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0%;
+    text-align    : center;
+    color         : white;
+    text-transform: capitalize;
+} */
+
+.sendButton :local(div) {
+    padding: 0;
+}
+
+.dontHaveAccount {
+    padding-top   : 23px;
+    padding-bottom: 23px;
+    font-size     : 0;
+    position      : relative;
+}
+
+.dontHaveAccount::after {
+    content       : "Create an account";
+    color         : #1D2734;
+    font-family   : "Lexend";
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0%;
+    text-align    : center;
+}

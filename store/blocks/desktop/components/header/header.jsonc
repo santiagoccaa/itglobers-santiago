@@ -37,7 +37,7 @@
             "search-bar#desktop",
             "flex-layout.row#desktop__header--navigation-links",
             "minicart.v2",
-            "login"
+            "login#desktop__header--login"
         ]
     },
     "flex-layout.col#logo-desktop": {
@@ -113,13 +113,6 @@
         "props": {
             "maxWidth": 280,
             "placeholder": "Search products...."
-        }
-    },
-    "login": {
-        "props": {
-            "accountOptionLinks": {
-                "label": "Login"
-            }
         }
     }
 }

@@ -1,6 +1,3 @@
 .minicartWrapperContainer--desktop--minicart :local(button) {
     border-radius: 100%;
 }
-.minicartWrapperContainer--desktop--minicart :local(button):hover{
-    background   : #e8fa2f;
-}
