@@ -2,7 +2,13 @@
     "minicart.v2": {
         "props": {
             "maxDrawerWidth": "400px",
-            "blockClass":"desktop--minicart"
+            "blockClass": "desktop--minicart",
+            "MinicartIcon": "icon-cart#minicart-ico"
+        }
+    },
+    "icon-cart#minicart-ico": {
+        "props": {
+            "size": 16
         }
     }
 }
