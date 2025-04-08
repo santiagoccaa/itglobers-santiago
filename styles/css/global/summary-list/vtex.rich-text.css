@@ -1,0 +1,9 @@
+.paragraph--global__summary__content--title {
+    font-family   : "Lexend";
+    font-weight   : 500;
+    font-size     : 16px;
+    line-height   : 16.8px;
+    letter-spacing: 0px;
+    color         : #1D2734;
+    margin-top: 65px;
+}

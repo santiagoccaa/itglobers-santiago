@@ -1,0 +1,37 @@
+.sliderLayoutContainer--summary__content--summary {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+.sliderTrackContainer--summary__content--summary {
+    height: 410px;
+    width : 1092px;
+}
+
+.sliderTrack--summary__content--summary {
+    height: 100%;
+}
+
+.slide--summary__content--summary {
+    width     : 212px;
+    height    : 372px;
+    position  : relative;
+}
+
+.slideChildrenContainer--summary__content--summary {
+    align-items: start;
+    height     : 100%;
+}
+
+.paginationDot--summary__content--summary {
+    background   : #1D2734;
+    padding      : 0;
+    max-height   : 2px;
+    min-width    : 40px;
+    border-radius: 0%;
+}
+
+.slide--summary__content--summary--visible {
+    min-width: 212px;
+}

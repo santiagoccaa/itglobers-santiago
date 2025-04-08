@@ -1,0 +1,128 @@
+.imageStackContainer {
+    margin-top: 36px;
+}
+
+.image {
+    width : 178px;
+    height: 140px;
+}
+
+.description {
+    text-align: left;
+    min-height: 51px;
+    max-height: 51px;
+    overflow  : hidden;
+}
+
+.description :local(div) {
+    font-family   : "Lexend";
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 0px;
+    letter-spacing: 0px;
+    color         : rgba(29, 39, 52, 0.6);
+}
+
+
+.listPriceLabel,
+.sellingPriceLabel,
+.installmentContainer {
+    display: none;
+}
+
+.priceContainer {
+    padding    : 0;
+    text-align : left;
+    align-items: flex-start;
+}
+
+.listPrice {
+    color          : #1D273466;
+    font-family    : "Lexend";
+    font-weight    : 400;
+    font-size      : 14px;
+    line-height    : 16.8px;
+    letter-spacing : 0px;
+    text-decoration: line-through;
+    padding-bottom : 0;
+}
+
+.sellingPrice {
+    font-family   : "Lexend";
+    font-weight   : 600;
+    font-size     : 24px;
+    line-height   : 28.8px;
+    letter-spacing: 0px;
+    color         : #1D2734;
+    padding-top   : 0;
+}
+
+.priceContainer {
+    position: absolute;
+    bottom  : 55px;
+    left    : 0;
+}
+
+.sellingPrice::after {
+    content       : "Envío gratis";
+    display       : block;
+    font-family   : "Lexend";
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 16px;
+    letter-spacing: 0px;
+    color         : #FA2080;
+}
+
+.listPriceContainer {
+    padding-bottom: 0;
+}
+
+.sellingPriceContainer {
+    padding-top: 0;
+}
+
+.buyButtonContainer {
+    padding : 0;
+    position: absolute;
+    bottom  : 0;
+}
+
+.buyButtonContainer :local(button) {
+    background   : transparent;
+    border       : 1px solid #1D2734;
+    border-radius: 8px;
+    height       : 48px;
+}
+
+.buyButtonContainer :local(button):hover {
+    background: transparent;
+}
+
+.buyButtonContainer :local(span) {
+    font-family   : "Lexend";
+    font-weight   : 400;
+    font-size     : 0;
+    position      : relative;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    text-align    : center;
+    color         : #1D2734;
+    text-transform: capitalize;
+    display       : flex;
+    align-items   : center;
+    gap           : 7px;
+}
+
+.buyButtonContainer :local(span)::after {
+    content  : "Comprar";
+    font-size: 14px;
+}
+
+.buyButtonContainer :local(span)::before {
+    content         : "";
+    width           : 20px;
+    height          : 20px;
+    background-image: url("assets/img/summary/add_shopping_cart.svg");
+    display         : flex;
+}

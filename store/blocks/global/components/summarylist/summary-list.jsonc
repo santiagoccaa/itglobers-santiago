@@ -1,0 +1,67 @@
+{
+    "flex-layout.row#global__summary": {
+        "title": "global summary",
+        "children": [
+            "flex-layout.col#global__summary__content"
+        ]
+    },
+    "flex-layout.col#global__summary__content": {
+        "title": "global summary content",
+        "children": [
+            "rich-text#global__summary__content--title",
+            "list-context.product-list#global__summary__content--products"
+        ]
+    },
+    "rich-text#global__summary__content--title": {
+        "props": {
+            "text": "Summary Productsa.",
+            "blockClass": "global__summary__content--title"
+        }
+    },
+    "product-summary.shelf#global__summary__content--products-info": {
+        "title": "summary cart",
+        "children": [
+            "add-to-list-btn",
+            "product-summary-image",
+            "stack-layout",
+            "product-summary-description",
+            "product-summary-price",
+            "product-summary-buy-button"
+        ],
+        "props": {
+            "blockClass": "global__summary__content--products-info"
+        }
+    },
+    "add-to-list-btn": {
+        "props": {
+            "blockClass":"corazon"
+        }
+    },
+    "list-context.product-list#global__summary__content--products": {
+        "blocks": [
+            "product-summary.shelf#global__summary__content--products-info"
+        ],
+        "children": [
+            "flex-layout.row#summary__content--slider"
+        ]
+    },
+    "flex-layout.row#summary__content--slider": {
+        "children": [
+            "slider-layout#summary__content--summary"
+        ]
+    },
+    "slider-layout#summary__content--summary": {
+        "title": "summary slider",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 3,
+                "mobile": 2
+            },
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "summary__content--summary",
+            "centerMode": "center"
+        }
+    }
+}
