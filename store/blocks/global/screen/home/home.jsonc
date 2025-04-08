@@ -3,7 +3,8 @@
         "blocks": [
             "responsive-layout.desktop#hero",
             "responsive-layout.mobile#hero",
-            "flex-layout.row#global__slider"
+            "flex-layout.row#global__slider",
+            "flex-layout.row#global__summary"
         ]
     }
 }

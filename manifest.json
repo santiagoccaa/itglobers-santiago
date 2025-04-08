@@ -50,5 +50,8 @@
     "vtex.store-link": "0.x",
     "vtex.store-icons": "0.x"
   },
+  "peerDependencies": {
+    "vtex.wish-list": "1.x"
+  },
   "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
