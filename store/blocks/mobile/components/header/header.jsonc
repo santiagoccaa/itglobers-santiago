@@ -40,7 +40,7 @@
     "flex-layout.row#search_cart_login": {
         "children": [
             "search-bar#mobile",
-            "minicart.v2#mobile",
+            "minicart.v2",
             "login"
         ],
         "props": {
@@ -52,17 +52,6 @@
         "props": {
             "displayMode": "search-button",
             "placeholder": ""
-        }
-    },
-    "minicart.v2#mobile": {
-        "props": {
-            "MinicartIcon": "icon-cart#minicart-icon",
-            "blockClass":"minicart-mobile"
-        }
-    },
-    "icon-cart#minicart-icon": {
-        "props": {
-            "size": 24
         }
     }
 }
