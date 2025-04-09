@@ -1,3 +1,7 @@
-.flexCol--minicart-footer--price{
-    background: red;
+.flexRow--minicart-footer {
+    position  : absolute;
+    bottom    : 0;
+    width     : 100%;
+    box-shadow: none;
+    background: white;
 }
