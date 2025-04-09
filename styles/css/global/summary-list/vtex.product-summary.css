@@ -96,7 +96,7 @@
 }
 
 .buyButtonContainer :local(button):hover {
-    background: transparent;
+    background: rgb(255, 255, 124);
 }
 
 .buyButtonContainer :local(span) {

@@ -1,0 +1,51 @@
+.drawerContent {
+    background: white;
+}
+
+.minicartCheckoutButton :local(button) {
+    border-radius: 40px;
+    border-width : 1px;
+    background   : #1D2734;
+}
+
+.minicartCheckoutButton :local(div) {
+    font-family   : "Lexend";
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0%;
+    text-align    : center;
+    text-transform: capitalize;
+}
+
+.minicartTitle {
+    font-size: 0;
+    position : relative;
+}
+
+.minicartTitle::after {
+    content       : "Resumen de tu compra";
+    font-family   : "Lexend";
+    font-weight   : 600;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+}
+
+.closeIconContainer {
+    display        : flex;
+    justify-content: space-between;
+    align-items    : center;
+    padding-left   : 16px;
+}
+
+.closeIconContainer::before {
+    content         : "";
+    background-image: url("assets/img/icons/icon_black.svg");
+    width           : 53px;
+    height          : 25px;
+    background-repeat: no-repeat;
+}
+.drawer {
+    background: white;
+}

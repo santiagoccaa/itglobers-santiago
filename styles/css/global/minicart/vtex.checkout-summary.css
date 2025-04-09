@@ -1,0 +1,19 @@
+.summarySmallContent {
+    background   : white;
+    box-shadow   : 0px 0px 12px rgba(0, 0, 0, 0.15);
+    padding      : 24px;
+    border       : 1px solid #E7E7E7;
+    border-radius: 4px;
+}
+
+.summaryItemContainer :local(div) {
+    font-family   : "Lexend";
+    font-weight   : 300;
+    font-size     : 14px;
+    line-height   : 16.8px;
+    letter-spacing: 0px;
+    color         : #1D2734;
+}
+.summarySmallDisclaimer {
+    display: none;
+}

@@ -1,0 +1,18 @@
+.paragraph--minicart-default-empty-state {
+    font-family   : "Lexend";
+    font-weight   : 600;
+    font-size     : 14px;
+    line-height   : 24px;
+    letter-spacing: 0px;
+    margin: 0;
+}
+
+.paragraph--minicart-default-empty-state-ofert {
+    font-family   : "Lexend";
+    font-weight   : 300;
+    font-size     : 12px;
+    line-height   : 19px;
+    letter-spacing: 0px;
+    text-align    : center;
+    margin: 0;
+}
