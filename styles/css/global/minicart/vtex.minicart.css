@@ -40,12 +40,18 @@
 }
 
 .closeIconContainer::before {
-    content         : "";
-    background-image: url("assets/img/icons/icon_black.svg");
-    width           : 53px;
-    height          : 25px;
+    content          : "";
+    background-image : url("assets/img/icons/icon_black.svg");
+    width            : 53px;
+    height           : 25px;
     background-repeat: no-repeat;
 }
+
 .drawer {
     background: white;
+}
+
+.minicartIconContainer :global(.vtex-store-icons-0-x-cartIcon) {
+    width     : 20px;
+    height    : 20px;
 }

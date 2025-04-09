@@ -2,11 +2,12 @@
     "login#desktop__header--login": {
         "props": {
             "emailAndPasswordTitle": "LOG IN",
-            "accessCodeTitle": "RECOVER PASSWORD",
+            "accessCodeTitle": "ENTER YOUR E-MAIL",
             "optionsTitle": "LOG-IN",
             "emailPlaceholder": "Enter your e-mail",
             "passwordPlaceholder": "Enter your password",
-            "providerPasswordButtonLabel": "Continue with an e-mail and password"
+            "providerPasswordButtonLabel": "Continue with an e-mail and password",
+            "labelClasses": "desktop__header--login"
         }
     }
 }

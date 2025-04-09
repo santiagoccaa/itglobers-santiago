@@ -22,7 +22,12 @@
 }
 
 .content--loginOptions,
-.content--emailVerification {
+.content--emailVerification,
+.content--codeConfirmation,
+.content--recoveryPassword,
+.content--emailAndPassword,
+.content--accountOptions,
+.content--beginCreatePass {
     width                     : 423px;
     background                : #F5F4F6;
     padding-left              : 28px;
@@ -37,7 +42,7 @@
     font-family   : "Lexend";
     font-weight   : 300;
     font-size     : 20px;
-    line-height   : 114.99999999999999%;
+    line-height   : 115%;
     letter-spacing: 0px;
     text-align    : center;
     vertical-align: middle;
@@ -136,7 +141,8 @@
 }
 
 .inputContainerEmail :local(div),
-.inputContainerPassword :local(div) {
+.inputContainerPassword :local(div),
+.inputContainerAccessCode :local(div) {
     height       : 48px;
     border-radius: 40px;
     outline      : none;
@@ -145,7 +151,8 @@
 }
 
 .inputContainerEmail :local(input),
-.inputContainerPassword :local(input) {
+.inputContainerPassword :local(input),
+.content--codeConfirmation :local(input) {
     height        : 100%;
     border        : 1px solid #1D2734;
     font-family   : "Lexend";
@@ -226,9 +233,9 @@
     height: 14px;
 }
 
-/* .formFooter :global(.t-small) {
+.formFooter :global(.t-small) {
     display: none;
-} */
+}
 
 .sendButton {
     margin: 0;
@@ -245,8 +252,33 @@
     align-items    : center;
     justify-content: center;
 }
-/* 
-.sendButton :local(button)::after {
+
+.content--emailVerification :local(button)::after,
+.content--beginCreatePass :local(button)::after {
+    content       : "Enviar";
+    font-family   : "Lexend";
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0%;
+    text-align    : center;
+    color         : white;
+    text-transform: capitalize;
+}
+
+.content--codeConfirmation :local(button)::after {
+    content       : "Verificar";
+    font-family   : "Lexend";
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0%;
+    text-align    : center;
+    color         : white;
+    text-transform: capitalize;
+}
+
+.content--emailAndPassword :local(button)::after {
     content       : "Login";
     font-family   : "Lexend";
     font-weight   : 400;
@@ -256,7 +288,8 @@
     text-align    : center;
     color         : white;
     text-transform: capitalize;
-} */
+}
+
 
 .sendButton :local(div) {
     padding: 0;
@@ -278,4 +311,137 @@
     line-height   : 100%;
     letter-spacing: 0%;
     text-align    : center;
+}
+
+.content--recoveryPassword :local(button)::after {
+    content       : "Create new password";
+    font-family   : "Lexend";
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    text-align    : center;
+    color         : white;
+    text-transform: capitalize;
+}
+
+.inputContainerAccessCode {
+    display: none;
+}
+
+.forgotPasswordForm :local(h3) {
+    font-size: 0;
+}
+
+.forgotPasswordForm :local(h3)::after {
+    content  : "Reset your password";
+    font-size: 20px;
+}
+
+.formSubtitle {
+    display: none;
+}
+
+.inputContainerPassword :local(div[class="pa2"]) {
+    background   : white;
+    height       : auto;
+    position     : absolute;
+    left         : -70%;
+    top          : -50%;
+    width        : 200px;
+    padding      : 12px;
+    border-radius: 8px;
+}
+
+.inputContainerPassword :local(span[class="t-small"]) {
+    color         : #0C2340;
+    font-family   : "Lexend";
+    font-weight   : 300;
+    font-size     : 12px;
+    line-height   : 16px;
+    letter-spacing: 0px;
+}
+
+.formError {
+    color         : red;
+    font-family   : "Lexend";
+    font-weight   : 600;
+    font-size     : 12px;
+    line-height   : 16px;
+    letter-spacing: 0px;
+    background    : transparent;
+    text-align    : left;
+}
+
+.content--accountOptions {
+    padding-top: 63px;
+    position   : relative;
+}
+
+.content--accountOptions::after {
+    content       : "My account";
+    position      : absolute;
+    top           : 16px;
+    left          : 144px;
+    font-family   : "Lexend";
+    font-weight   : 300;
+    font-size     : 20px;
+    text-align    : center;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+
+.accountOptions :global(.vtex-login-2-x-button) {
+    width        : 368px;
+    height       : 48px;
+    border-radius: 40px;
+    border-width : 1px;
+    background   : #1D2734;
+    color        : white;
+}
+
+.accountOptions :global(.vtex-login-2-x-button) span {
+    font-family   : "Lexend";
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    color         : white;
+    text-align    : center;
+    text-transform: capitalize;
+}
+
+.accountOptions :global(.vtex-button__label) {
+    width        : 368px;
+    height       : 48px;
+    border-radius: 40px;
+    border-width : 1px;
+    background   : transparent;
+}
+
+.accountOptions :global(.vtex-button__label) span {
+    font-family   : "Lexend";
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    color         : #E31616;
+    text-align    : center;
+    text-transform: capitalize;
+}
+
+
+.profile {
+    font-size: 0;
+    padding  : 0;
+}
+
+.profile::after {
+    content       : "Cuenta";
+    font-family   : "Lexend";
+    font-weight   : 400;
+    font-size     : 12px;
+    text-transform: capitalize;
+    color         : white;
 }
