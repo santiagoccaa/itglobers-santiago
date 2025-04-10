@@ -1,8 +1,13 @@
 .wishlistIconContainer--corazon {
-    background: red;
     position  : absolute;
     top       : 0;
     right     : 0;
-    max-height    : 44px;
-    z-index: 9;
+    max-height: 32px;
+    max-width     : 44px;
+    z-index   : 9;
+}
+
+.wishlistIconContainer--corazon :local(span) {
+    width : 20px;
+    height: 20px;
 }

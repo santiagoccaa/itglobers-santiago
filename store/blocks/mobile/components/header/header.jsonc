@@ -41,7 +41,7 @@
         "children": [
             "search-bar#mobile",
             "minicart.v2",
-            "login"
+            "login#global__header--login"
         ],
         "props": {
             "preserveLayoutOnMobile": true,

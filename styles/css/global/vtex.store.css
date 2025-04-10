@@ -14,3 +14,10 @@
     margin-top: 168px;
     background: white;
 }
+
+:local(body div[class="vtex-render__container-id-default"]) {
+    margin-top: 68px;
+    background: white;
+}
+
+
