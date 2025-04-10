@@ -32,7 +32,7 @@
             "blockClass": "row1-desktop"
         },
         "children": [
-            "flex-layout.col#logo-desktop",
+            "flex-layout.col#desktop__mega-menu",
             "flex-layout.col#logo-desktop",
             "search-bar#desktop",
             "flex-layout.row#desktop__header--navigation-links",

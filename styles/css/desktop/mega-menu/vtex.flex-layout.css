@@ -1,0 +1,67 @@
+.flexCol--desktop__mega-menu {
+    position: relative;
+}
+
+.flexCol--desktop__mega-menu :global(.vtex-mega-menu-2-x-menuContainerNav) {
+    background: white;
+    margin-top: 20px;
+    height    : 75vh;
+    max-height: 647px;
+    width     : auto;
+}
+
+.flexCol--desktop__mega-menu :global(.vtex-mega-menu-2-x-menuContainer) {
+    background     : white;
+    min-width      : 220px;
+    max-width      : 220px;
+    min-height     : 100%;
+    scrollbar-width: none;
+}
+
+.flexCol--desktop__mega-menu :local(h3) {
+    font-family   : "Lexend";
+    font-weight   : 600;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    color         : #1D2734;
+}
+
+.flexCol--desktop__mega-menu :global(.vtex-mega-menu-2-x-styledLinkText) {
+    font-family   : "Lexend";
+    font-weight   : 300;
+    font-size     : 12px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    color         : #1D2734;
+
+}
+
+.flexCol--desktop__mega-menu :global(.vtex-mega-menu-2-x-menuItem) {
+    width: 220px;
+}
+
+.flexCol--desktop__mega-menu :global(.vtex-mega-menu-2-x-menuItem):hover {
+    background: #FFE6D3;
+
+}
+
+.flexCol--desktop__mega-menu :global(.vtex-mega-menu-2-x-submenuContainer) {
+    background     : #FFE6D3;
+    width          : 220px;
+    min-height     : 100%;
+    scrollbar-width: none;
+    padding-top    : 8px;
+}
+
+.flexCol--desktop__mega-menu :global(.vtex-mega-menu-2-x-seeAllLinkContainer) {
+    display: none;
+}
+
+.flexCol--desktop__mega-menu :global(.vtex-mega-menu-2-x-submenuList) {
+    gap: 16px;
+}
+
+.flexCol--desktop__mega-menu :global(.vtex-mega-menu-2-x-accordionIconContainer) {
+    display: none;
+}
