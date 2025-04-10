@@ -26,3 +26,11 @@
     height    : 56px;
     margin-top: 56px;
 }
+
+.flexRowContent--row1-desktop :global(.vtex-login-2-x-label){
+    font-size: 0;
+}
+.flexRowContent--row1-desktop :global(.vtex-login-2-x-label)::after{
+    content: "Login";
+    font-size: 14px;
+}

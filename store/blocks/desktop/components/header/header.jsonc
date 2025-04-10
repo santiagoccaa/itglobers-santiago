@@ -37,7 +37,7 @@
             "search-bar#desktop",
             "flex-layout.row#desktop__header--navigation-links",
             "minicart.v2",
-            "login#desktop__header--login"
+            "login#global__header--login"
         ]
     },
     "flex-layout.col#logo-desktop": {
