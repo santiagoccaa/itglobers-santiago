@@ -8,32 +8,20 @@
 }
 
 .description {
-    text-align: left;
-    min-height: 51px;
-    max-height: 51px;
-    overflow  : hidden;
-}
-
-.description :local(div) {
+    text-align        : left;
+    overflow          : hidden;
+    display           : -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
     font-family   : "Lexend";
     font-weight   : 400;
     font-size     : 14px;
-    line-height   : 0px;
-    letter-spacing: 0px;
-    color         : rgba(29, 39, 52, 0.6);
 }
-
 
 .listPriceLabel,
 .sellingPriceLabel,
 .installmentContainer {
     display: none;
-}
-
-.priceContainer {
-    padding    : 0;
-    text-align : left;
-    align-items: flex-start;
 }
 
 .listPrice {
@@ -47,7 +35,7 @@
     padding-bottom : 0;
 }
 
-.sellingPrice {
+.clearLink--global__summary__content--products-info :global(.vtex-store-components-3-x-sellingPriceValue) {
     font-family   : "Lexend";
     font-weight   : 600;
     font-size     : 24px;
@@ -57,13 +45,7 @@
     padding-top   : 0;
 }
 
-.priceContainer {
-    position: absolute;
-    bottom  : 55px;
-    left    : 0;
-}
-
-.sellingPrice::after {
+.clearLink--global__summary__content--products-info :global(.vtex-store-components-3-x-sellingPriceValue)::after {
     content       : "Envío gratis";
     display       : block;
     font-family   : "Lexend";
@@ -72,6 +54,16 @@
     line-height   : 16px;
     letter-spacing: 0px;
     color         : #FA2080;
+}
+
+.clearLink--global__summary__content--products-info :global(.vtex-product-summary-2-x-priceContainer) {
+    text-align     : left;
+    justify-content: left;
+    align-items    : flex-start;
+    position       : absolute;
+    bottom         : 56px;
+    width          : 100%;
+    padding        : 0;
 }
 
 .listPriceContainer {
@@ -125,4 +117,29 @@
     height          : 20px;
     background-image: url("assets/img/summary/add_shopping_cart.svg");
     display         : flex;
+}
+
+.container--global__summary__content--products-info :global(.vtex-store-components-3-x-discountInsideContainer) {
+    background     : #1D2734;
+    width          : 84px;
+    height         : 32px;
+    padding        : 0;
+    position       : absolute;
+    top            : -8px;
+    left           : -17px;
+    border-radius  : 8px;
+    font-family    : "Lexend";
+    font-weight    : 400;
+    font-size      : 14px;
+    line-height    : 20px;
+    letter-spacing : 0px;
+    vertical-align : middle;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    gap            : 4px;
+}
+
+.container--global__summary__content--products-info :global(.vtex-store-components-3-x-discountInsideContainer)::after {
+    content: "OFF";
 }
