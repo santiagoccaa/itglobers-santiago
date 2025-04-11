@@ -1,10 +1,10 @@
 {
     "responsive-layout.desktop": {
         "children": [
-            "flex-layout.row#desktop__product-main"
+            "flex-layout.row#desktop__product-detail"
         ]
     },
-    "flex-layout.row#desktop__product-main": {
+    "flex-layout.row#desktop__product-detail": {
         "props": {
             "colGap": 7,
             "rowGap": 7,
@@ -14,31 +14,34 @@
             "paddingBottom": 7
         },
         "children": [
-            "flex-layout.col#desktop__content--product"
+            "flex-layout.col#desktop__product-detail"
         ]
     },
-    "flex-layout.col#desktop__content--product": {
+    "flex-layout.col#desktop__product-detail": {
         "children": [
-            "flex-layout.row#product--image-skus",
+            "flex-layout.row#product-detail--image-skus",
             "flex-layout.row#product-specifications"
         ]
     },
-    "flex-layout.row#product--image-skus": {
+    "flex-layout.row#product-detail--image-skus": {
         "children": [
-            "flex-layout.col#desktop__product-image",
+            "flex-layout.col#product-detail--image-skus--image",
             "flex-layout.col#right-col"
-        ]
+        ],
+        "props": {
+            "blockClass": "product-detail--image-skus"
+        }
     },
-    "flex-layout.col#desktop__product-image": {
+    "flex-layout.col#product-detail--image-skus--image": {
         "props": {
             "width": "60%",
             "rowGap": 0
         },
         "children": [
-            "product-images#destop__image"
+            "product-images#desktop__img-sku"
         ]
     },
-    "product-images#destop__image": {
+    "product-images#desktop__img-sku": {
         "props": {
             "displayThumbnailsArrows": true,
             "thumbnailsOrientation": "vertical",
@@ -46,7 +49,7 @@
             "showNavigationArrows": false,
             "showPaginationDots": false,
             "thumbnailVisibility": "visible",
-            "displayMode": "carousel "
+            "displayMode": "carousel"
         }
     },
     "responsive-layout.desktop#add-to-cart": {

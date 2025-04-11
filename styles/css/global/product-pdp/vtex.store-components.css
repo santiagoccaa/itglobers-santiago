@@ -8,7 +8,7 @@
     text-transform: uppercase;
 }
 
-.currencyContainer {
+.sellingPrice :global(.vtex-store-components-3-x-currencyContainer) {
     font-family   : 'Lexend';
     color         : #1D2734;
     font-size     : 24px;
@@ -31,9 +31,19 @@
     color      : #1D2734;
 }
 
-.currencyContainer :global(.vtex-store-components-3-x-currencyCode)::before {
+.sellingPrice :global(.vtex-store-components-3-x-currencyCode)::before {
     content     : "NOW";
     margin-right: 4px;
+}
+
+.listPriceValue {
+    font-family    : "Lexend";
+    font-weight    : 400;
+    font-size      : 14px;
+    line-height    : 16.8px;
+    letter-spacing : 0px;
+    text-decoration: line-through;
+    color          : rgba(29, 39, 52, 0.4);
 }
 
 .skuSelectorContainer {
@@ -45,7 +55,6 @@
 .skuSelectorSubcontainer--color {
     margin: 0;
 }
-
 
 .skuSelectorSubcontainer--color :global(.vtex-store-components-3-x-skuSelectorItem) {
     min-width      : 64px;
@@ -125,4 +134,44 @@
 
 .specificationsTableHead {
     display: none;
+}
+
+.sellingPriceLabel,
+.listPriceLabel {
+    display: none;
+}
+
+.carouselGaleryThumbs {
+    max-width : 92px;
+    max-height: 650px;
+}
+
+@media (max-width: 1023px) {
+    .carouselGaleryThumbs {
+        min-width : 100%;
+        max-height: 76px;
+    }
+
+    .carouselGaleryThumbs :local(div) {
+        max-height: 76px;
+    }
+
+    .carouselGaleryThumbs :global(.vtex-store-components-3-x-productImagesThumb) {
+        max-height  : 76px !important;
+        margin-right: 6px;
+        min-width  : 92px;
+    }
+}
+
+.figure {
+    max-height: 72px;
+    width     : 92px;
+}
+
+.figure :local(img) {
+    max-height: 72px;
+}
+
+.productImagesThumb {
+    margin-bottom: 6px;
 }
