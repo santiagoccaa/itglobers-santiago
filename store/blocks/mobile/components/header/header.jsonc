@@ -1,31 +1,17 @@
 {
-    "header-layout.mobile": {
-        "title": "mobile Header Layout",
-        "children": [
-            "header-force-center#mobile"
-        ],
-        "props": {
-            "zIndex": 999
-        }
-    },
-    "header-force-center#mobile": {
-        "children": [
-            "header-row#1-mobile",
-            "header-row#2-mobile"
-        ]
-    },
-    "header-row#1-mobile": {
+    "flex-layout.row#row1-mobile": {
         "children": [
             "flex-layout.row#logo_menu",
             "flex-layout.row#search_cart_login"
         ],
         "props": {
-            "blockClass": "mobile__hero__content",
             "horizontalAlign": "between",
-            "verticalAlign": "between",
+            "verticalAlign": "center",
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
-            "fullWidth": true
+            "fullWidth": true,
+            "preserveLayoutOnMobile": true,
+            "blockClass":"row__mobile"
         }
     },
     "flex-layout.row#logo_menu": {
@@ -35,7 +21,9 @@
         ],
         "props": {
             "preserveLayoutOnMobile": true,
-            "blockClass":"logo_menu"
+            "verticalAlign": "center",
+            "horizontalAlign": "center",
+            "blockClass": "mobile__logo_menu"
         }
     },
     "flex-layout.row#search_cart_login": {
@@ -52,7 +40,7 @@
     "search-bar#mobile": {
         "props": {
             "displayMode": "search-button",
-            "placeholder": ""
+            "placeholder": "Search products...."
         }
     }
 }

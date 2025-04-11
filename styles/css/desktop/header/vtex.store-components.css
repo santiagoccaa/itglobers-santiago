@@ -1,18 +1,19 @@
-.searchBarInnerContainer :global(.vtex-input-prefix__group) {
+.autoCompleteOuterContainer {
+    width     : 280px;
+    height    : 40px;
+}
+
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
     border-radius: 40px;
     height       : 40px;
     background   : #F0F0F2;
+    border       : none;
 }
 
-.searchBarInnerContainer :global(.vtex-styleguide-9-x-input) {
+.autoCompleteOuterContainer :global(.vtex-styleguide-9-x-input) {
     font-weight   : 300;
     font-size     : 12px;
     line-height   : 100%;
     letter-spacing: 0px;
     font-family   : "Lexend";
-}
-
-.logoContainer {
-    padding    : 0;
-    margin-right: 16px;
 }

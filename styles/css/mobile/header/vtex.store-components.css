@@ -1,20 +1,20 @@
-@media (max-width: 728px) {
+@media (max-width:430px) {
+    .autoCompleteOuterContainer {
+        width : 40px;
+        height: 40px;
+    }
+
     .autoCompleteOuterContainer :global(.vtex-styleguide-9-x-input) {
         display: none;
     }
 
-    .autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
-        border: none;
+    .autoCompleteOuterContainer :local(span) {
+        background     : white;
+        border-radius  : 100%;
+        padding        : 0;
+        width          : 40px;
+        display        : flex;
+        align-items    : center;
+        justify-content: center;
     }
-
-    .autoCompleteOuterContainer :global(.vtex-input__suffix) {
-        background: white;
-        padding   : 0;
-    }
-
-    .autoCompleteOuterContainer :global(.vtex-store-components-3-x-searchIcon) {
-        width : 24px;
-        height: 24px;
-    }
-
 }

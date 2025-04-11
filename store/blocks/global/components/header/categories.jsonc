@@ -1,23 +1,15 @@
 {
-    "header-row#2-desktop": {
-        "title": "Desktop Header Row 2",
-        "children": [
-            "flex-layout.row#row2-desktop"
-        ],
-        "props": {
-            "fullWidth": true,
-            "horizontalAlign": "center"
-        }
-    },
-    "flex-layout.row#row2-desktop": {
+    "flex-layout.row#header__global__row-2": {
         "title": "Main Desktop Header Flex Row Categories",
         "props": {
-            "horizontalAlign": "center",
+            "horizontalAlign": "left",
             "verticalAlign": "center",
             "preventHorizontalStretch": true,
             "preventVerticalStretch": true,
             "fullWidth": true,
-            "marginTop": "3"
+            "marginTop": "3",
+            "preserveLayoutOnMobile": true,
+            "blockClass": "row2-desktop"
         },
         "children": [
             "flex-layout.col#desktop__categories--food",

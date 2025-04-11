@@ -1,17 +1,45 @@
 {
-  "header#global": {
+  "header": {
+    "title": "Header",
     "blocks": [
-      "header-layout.desktop",
-      "header-layout.mobile"
+      "header-layout.desktop#owo",
+      "header-layout.mobile#owo"
     ]
   },
   "header.full": {
     "blocks": [
-      "header-layout.desktop",
-      "header-layout.mobile"
+      "header-layout.desktop#owo",
+      "header-layout.mobile#owo"
+    ]
+  },
+  "header-layout.desktop#owo": {
+    "children": [
+      "sticky-layout#desktop"
+    ]
+  },
+  "header-layout.mobile#owo": {
+    "children": [
+      "sticky-layout#mobile"
+    ]
+  },
+  "sticky-layout#desktop": {
+    "title": "Header Sticky Desktop",
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#row1-desktop",
+      "flex-layout.row#header__global__row-2"
+    ]
+  },
+  "sticky-layout#mobile": {
+    "title": "Header Sticky Mobile",
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": [
+      "flex-layout.row#row1-mobile",
+      "flex-layout.row#header__global__row-2"
     ]
   }
-  // "drawer": {
-  //   "children": []
-  // }
 }
