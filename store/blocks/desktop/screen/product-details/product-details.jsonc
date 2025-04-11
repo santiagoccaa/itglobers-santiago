@@ -1,80 +1,92 @@
 {
-    "responsive-layout.desktop": {
-        "children": [
-            "flex-layout.row#desktop__product-main"
-        ]
+  "responsive-layout.desktop#desktop__product-detail": {
+    "children": [
+      "flex-layout.row#desktop__product"
+    ]
+  },
+  "flex-layout.row#desktop__product": {
+    "title": "Main Desktop Product Detail",
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7
     },
-    "flex-layout.row#desktop__product-main": {
-        "props": {
-            "colGap": 7,
-            "rowGap": 7,
-            "marginTop": 4,
-            "marginBottom": 7,
-            "paddingTop": 7,
-            "paddingBottom": 7
-        },
-        "children": [
-            "flex-layout.col#desktop__content--product"
-        ]
-    },
-    "flex-layout.col#desktop__content--product": {
-        "children": [
-            "flex-layout.row#product--image-skus",
-            "flex-layout.row#product-specifications"
-        ]
-    },
-    "flex-layout.row#product--image-skus": {
-        "children": [
-            "flex-layout.col#desktop__product-image",
-            "flex-layout.col#right-col"
-        ]
-    },
-    "flex-layout.col#desktop__product-image": {
-        "props": {
-            "width": "60%",
-            "rowGap": 0
-        },
-        "children": [
-            "product-images#destop__image"
-        ]
-    },
-    "product-images#destop__image": {
-        "props": {
-            "displayThumbnailsArrows": true,
-            "thumbnailsOrientation": "vertical",
-            "maxHeight": 650,
-            "showNavigationArrows": false,
-            "showPaginationDots": false,
-            "thumbnailVisibility": "visible",
-            "displayMode": "carousel "
-        }
-    },
-    "responsive-layout.desktop#add-to-cart": {
-        "children": [
-            "flex-layout.row#desktop__add-to-cart"
-        ]
-    },
-    "flex-layout.row#desktop__add-to-cart": {
-        "children": [
-            "product-quantity#desktop",
-            "add-to-cart-button#desktop"
-        ],
-        "props": {
-            "blockClass": "add-to-cart",
-            "preserveLayoutOnMobile": true,
-            "colSizing": "auto",
-            "horizontalAlign": "center"
-        }
-    },
-    "product-quantity#desktop": {
-        "props": {
-            "width": "35%"
-        }
-    },
-    "add-to-cart-button#desktop": {
-        "props": {
-            "text": "Agregar al carrito",
-            "width": "65%"
-        }
+    "children": [
+      "flex-layout.col#desktop__content--product"
+    ]
+  },
+  "flex-layout.col#desktop__content--product": {
+    "title": "Content Column for Product - Desktop",
+    "children": [
+      "flex-layout.row#product--image-skus",
+      "flex-layout.row#product-specifications"
+    ]
+  },
+  "flex-layout.row#product--image-skus": {
+    "title": "Row for Product Image and SKUs - Desktop",
+    "children": [
+      "flex-layout.col#desktop__product-image",
+      "flex-layout.col#right-col"
+    ],
+    "props": {
+      "blockClass": "product-detail--image-skus"
     }
+  },
+  "flex-layout.col#desktop__product-image": {
+    "title": "Product Image Column - Desktop",
+    "props": {
+      "width": "60%",
+      "rowGap": 0
+    },
+    "children": [
+      "product-images#destopk__image"
+    ]
+  },
+  "product-images#destopk__image": {
+    "title": "Product Image Carousel - Desktop",
+    "props": {
+      "displayThumbnailsArrows": true,
+      "thumbnailsOrientation": "vertical",
+      "maxHeight": 650,
+      "showNavigationArrows": false,
+      "showPaginationDots": false,
+      "thumbnailVisibility": "visible",
+      "displayMode": "carousel "
+    }
+  },
+  "responsive-layout.desktop#add-to-cart": {
+    "title": "Add to Cart Layout - Desktop",
+    "children": [
+      "flex-layout.row#desktop__add-to-cart"
+    ]
+  },
+  "flex-layout.row#desktop__add-to-cart": {
+    "title": "Add to Cart an Quantity Row - Desktop",
+    "children": [
+      "product-quantity#desktop",
+      "add-to-cart-button#desktop"
+    ],
+    "props": {
+      "blockClass": "add-to-cart",
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto",
+      "horizontalAlign": "center"
+    }
+  },
+  "product-quantity#desktop": {
+    "title": "Product Quantity Selector - Desktop",
+    "props": {
+      "width": "35%"
+    }
+  },
+  "add-to-cart-button#desktop": {
+    "title": "Add to Cart Button - Desktop",
+    "props": {
+      "text": "Agregar al carrito",
+      "width": "65%"
+    }
+  }
 }

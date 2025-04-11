@@ -1,0 +1,11 @@
+.flexRow--product-detail--image-skus :global(.vtex-store-components-3-x-priceContainer) {
+    display        : flex;
+    align-items    : center;
+    flex-direction : row-reverse;
+    justify-content: left;
+}
+
+.flexRow--product-detail--image-skus :global(.vtex-store-components-3-x-listPrice) {
+    margin-bottom: 0;
+    margin-top   : 5px;
+}

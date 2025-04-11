@@ -11,13 +11,16 @@
 }
 
 :local(body div[class="vtex-render__container-id-responsive-layout.desktop"]) {
-    margin-top: 168px;
+    margin-top: 100px;
     background: white;
 }
 
-:local(body div[class="vtex-render__container-id-default"]) {
+:local(body div[class="vtex-render__container-id-desktop__product-detail"]) {
     margin-top: 68px;
     background: white;
 }
 
-
+:local(body div[class="vtex-render__container-id-mobile__product-detail"]) {
+    background: white;
+    margin-top: 68px;
+}
