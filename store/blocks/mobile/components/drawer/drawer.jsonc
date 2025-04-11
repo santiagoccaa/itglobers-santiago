@@ -1,0 +1,144 @@
+{
+    "drawer#mobile__drawer": {
+        "children": [
+            "menu#mobile__drawer--icon_login",
+            "menu#mobile__drawer--title",
+            "menu#mobile__drawer--categories--row1",
+            "menu#mobile__drawer--categories--row2"
+        ],
+        "blocks": [
+            "drawer-trigger#mobile__drawer__trigger"
+        ],
+        "props": {
+            "blockClass": "mobile__drawer"
+        }
+    },
+    "drawer-trigger#mobile__drawer__trigger": {
+        "children": [
+            "logo#mobile__drawer--logo"
+        ]
+    },
+    "logo#mobile__drawer--logo": {
+        "props": {
+            "width": 24,
+            "height": 24,
+            "mobileWidth": 18,
+            "mobileHeight": 12,
+            "url": "assets/img/icons/menu.svg"
+        }
+    },
+    "menu#mobile__drawer--icon_login": {
+        "children": [
+            "flex-layout.row#mobile__drawe--icon_login"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "flex-layout.row#mobile__drawe--icon_login": {
+        "children": [
+            "logo#mobile__drawer--logo--itglobers",
+            "login#global__header--login"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "colJustify": "between",
+            "horizontalAlign": "center",
+            "colSizing": "auto",
+            "blockClass": "mobile__drawe--icon_login"
+        }
+    },
+    "logo#mobile__drawer--logo--itglobers": {
+        "props": {
+            "width": 32,
+            "height": 16,
+            "mobileWidth": 32,
+            "mobileHeight": 16,
+            "url": "assets/img/icons/icon_black.svg"
+        }
+    },
+    "menu#mobile__drawer--title": {
+        "children": [
+            "rich-text#mobile__drawer--title"
+        ],
+        "props": {
+            "orientation": "vertical"
+        }
+    },
+    "rich-text#mobile__drawer--title": {
+        "props": {
+            "text": "ITGlobers+",
+            "blockClass": "open-drawer"
+        }
+    },
+    "menu#mobile__drawer--categories--row1": {
+        "children": [
+            "rich-text#mobile__drawer--categories--account",
+            "rich-text#mobile__drawer--categories--wishlist",
+            "rich-text#mobile__drawer--categories--help"
+        ],
+        "props": {
+            "blockClass": "mobile__drawer--categories"
+        }
+    },
+    "rich-text#mobile__drawer--categories--account": {
+        "props": {
+            "text": "Account",
+            "blockClass": "mobile__drawer--categories"
+        }
+    },
+    "rich-text#mobile__drawer--categories--wishlist": {
+        "props": {
+            "text": "Wishlist",
+            "blockClass": "mobile__drawer--categories"
+        }
+    },
+    "rich-text#mobile__drawer--categories--help": {
+        "props": {
+            "text": "Help",
+            "blockClass": "mobile__drawer--categories"
+        }
+    },
+    "menu#mobile__drawer--categories--row2": {
+        "children": [
+            "rich-text#mobile__drawer--categories--food",
+            "rich-text#mobile__drawer--categories--fitness",
+            "rich-text#mobile__drawer--categories--artico",
+            "rich-text#mobile__drawer--categories--poolday",
+            "rich-text#mobile__drawer--categories--hoteles"
+        ],
+        "props": {
+            "blockClass": "mobile__drawer--categories"
+        }
+    },
+    "rich-text#mobile__drawer--categories--food": {
+        "props": {
+            "text": "Food",
+            "blockClass": "mobile__drawer--categories"
+        }
+    },
+    "rich-text#mobile__drawer--categories--fitness": {
+        "props": {
+            "text": "Fitness",
+            "blockClass": "mobile__drawer--categories"
+        }
+    },
+    "rich-text#mobile__drawer--categories--artico": {
+        "props": {
+            "text": "En el Ártico",
+            "blockClass": "mobile__drawer--categories"
+        }
+    },
+    "rich-text#mobile__drawer--categories--poolday": {
+        "props": {
+            "text": "Poolday",
+            "blockClass": "mobile__drawer--categories"
+        }
+    },
+    "rich-text#mobile__drawer--categories--hoteles": {
+        "props": {
+            "text": "Hoteles",
+            "blockClass": "mobile__drawer--categories"
+        }
+    }
+}

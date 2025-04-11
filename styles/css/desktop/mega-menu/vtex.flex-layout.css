@@ -1,5 +1,6 @@
 .flexCol--desktop__mega-menu {
     position: relative;
+    margin-right: 8px;
 }
 
 .flexCol--desktop__mega-menu :global(.vtex-mega-menu-2-x-menuContainerNav) {
@@ -51,7 +52,7 @@
     width          : 220px;
     min-height     : 100%;
     scrollbar-width: none;
-    padding-top    : 8px;
+    padding-top    : 16px;
 }
 
 .flexCol--desktop__mega-menu :global(.vtex-mega-menu-2-x-seeAllLinkContainer) {

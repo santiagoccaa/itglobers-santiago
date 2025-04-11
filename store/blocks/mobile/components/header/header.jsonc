@@ -20,7 +20,7 @@
             "flex-layout.row#search_cart_login"
         ],
         "props": {
-            "blockClass":"mobile__hero__content",
+            "blockClass": "mobile__hero__content",
             "horizontalAlign": "between",
             "verticalAlign": "between",
             "preventHorizontalStretch": true,
@@ -30,11 +30,12 @@
     },
     "flex-layout.row#logo_menu": {
         "children": [
-            "logo",
+            "drawer#mobile__drawer",
             "logo"
         ],
         "props": {
-            "preserveLayoutOnMobile": true
+            "preserveLayoutOnMobile": true,
+            "blockClass":"logo_menu"
         }
     },
     "flex-layout.row#search_cart_login": {

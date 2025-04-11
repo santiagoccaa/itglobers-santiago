@@ -1,0 +1,9 @@
+.flexRowContent--logo_menu{
+    align-items: center;
+}
+
+.flexRowContent--mobile__drawe--icon_login{
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+}

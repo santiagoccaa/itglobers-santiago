@@ -1,0 +1,25 @@
+.drawer {
+    background: white;
+    padding   : 16px;
+}
+
+.childrenContainer--mobile__drawer {
+    display       : flex;
+    flex-direction: column;
+}
+
+.childrenContainer--mobile__drawer :global(.vtex-menu-2-x-menuContainerNav) {
+    padding-top   : 17px;
+    padding-bottom: 17px;
+}
+
+.childrenContainer--mobile__drawer :global(.vtex-menu-2-x-menuContainer--mobile__drawer--categories) {
+    flex-direction: column;
+    border-bottom : 1px solid #F5F4F6;
+}
+
+.closeIconButton {
+    position: absolute;
+    top     : 4px;
+    right   : 4px;
+}

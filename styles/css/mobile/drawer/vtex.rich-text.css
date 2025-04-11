@@ -1,0 +1,28 @@
+.paragraph--open-drawer {
+    font-family   : "Lexend";
+    font-weight   : 300;
+    font-size     : 12px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    margin        : 0;
+    color         : #1D2734;
+    display       : flex;
+}
+
+.paragraph--open-drawer::before {
+    content          : "";
+    background-image : url("assets/img/icons/drawer_icon.svg");
+    background-repeat: no-repeat;
+    width            : 10px;
+    height           : 10px;
+    margin-right: 5px;
+}
+
+.paragraph--mobile__drawer--categories {
+    font-family   : "Lexend";
+    font-weight   : 300;
+    font-size     : 12px;
+    line-height   : 100%;
+    letter-spacing: 0px;
+    color: #1D2734;
+}

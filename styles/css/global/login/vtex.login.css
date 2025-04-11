@@ -445,3 +445,19 @@
     text-transform: capitalize;
     color         : white;
 }
+
+.label {
+    font-size: 0px;
+}
+
+.label::after {
+    content       : "Login";
+    font-family   : "Lexend";
+    font-weight   : 400;
+    font-size     : 14px;
+    line-height   : 100%;
+    letter-spacing: 0%;
+    text-align    : center;
+    color         : white;
+    text-transform: capitalize;
+}
