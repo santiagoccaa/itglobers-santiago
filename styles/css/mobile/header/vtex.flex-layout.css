@@ -1,3 +1,18 @@
-.flexRow--mobile__hero__content {
-    margin-top: 128px;
+.flexRow--mobile__logo_menu {
+    display    : flex;
+    align-items: center;
+}
+
+.flexRow--mobile__logo_menu :local(div) {
+    align-items: center;
+}
+
+.flexRow--row__mobile {
+    margin-top   : 50px;
+    padding-left : 16px;
+    padding-right: 16px;
+}
+
+.flexRowContent--mobile__hero__content {
+    margin-top: 168px;
 }

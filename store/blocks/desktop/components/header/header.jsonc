@@ -1,26 +1,4 @@
 {
-    "header-layout.desktop": {
-        "title": "Desktop Header Layout",
-        "children": [
-            "header-force-center"
-        ]
-    },
-    "header-force-center": {
-        "children": [
-            "header-row#1-desktop",
-            "header-row#2-desktop"
-        ]
-    },
-    "header-row#1-desktop": {
-        "title": "Desktop Header Row 1",
-        "children": [
-            "flex-layout.row#row1-desktop"
-        ],
-        "props": {
-            "fullWidth": true,
-            "horizontalAlign": "center"
-        }
-    },
     "flex-layout.row#row1-desktop": {
         "title": "Main Desktop Header Flex Row",
         "props": {
