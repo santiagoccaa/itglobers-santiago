@@ -10,8 +10,8 @@
       "header-layout.desktop",
       "header-layout.mobile"
     ]
-  },
-  "drawer": {
-    "children": []
   }
+  // "drawer": {
+  //   "children": []
+  // }
 }
