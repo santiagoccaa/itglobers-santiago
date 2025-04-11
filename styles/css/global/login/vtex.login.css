@@ -343,14 +343,7 @@
 }
 
 .inputContainerPassword :local(div[class="pa2"]) {
-    background   : white;
-    height       : auto;
-    position     : absolute;
-    left         : -70%;
-    top          : -50%;
-    width        : 200px;
-    padding      : 12px;
-    border-radius: 8px;
+    display: none;
 }
 
 .inputContainerPassword :local(span[class="t-small"]) {
@@ -373,64 +366,65 @@
     text-align    : left;
 }
 
-.content--accountOptions {
-    padding-top: 63px;
-    position   : relative;
-}
-
-.content--accountOptions::after {
-    content       : "My account";
-    position      : absolute;
-    top           : 16px;
-    left          : 144px;
+.accountOptionsSectionTitle {
     font-family   : "Lexend";
     font-weight   : 300;
     font-size     : 20px;
     text-align    : center;
     vertical-align: middle;
     text-transform: uppercase;
+    margin-bottom : 24px;
 }
 
+.account-button {
+    width          : 368px;
+    height         : 48px;
+    top            : 63px;
+    left           : 28px;
+    gap            : 10px;
+    border-radius  : 40px;
+    border-width   : 1px;
+    padding        : 0;
+    border         : 1px solid #1D2734;
+    margin-bottom  : 8px;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    color          : #1D2734;
+    font-family    : "Lexend";
+    font-weight    : 400;
+    font-size      : 14px;
+}
 
-.accountOptions :global(.vtex-login-2-x-button) {
+.account-button:hover {
+    background: #1D2734;
+    color     : white;
+}
+
+.logoutButton {
     width        : 368px;
     height       : 48px;
+    top          : 63px;
+    left         : 28px;
+    gap          : 10px;
     border-radius: 40px;
     border-width : 1px;
-    background   : #1D2734;
-    color        : white;
+    padding      : 0;
+    font-size    : 0;
+    color        : #E31616;
 }
 
-.accountOptions :global(.vtex-login-2-x-button) span {
-    font-family   : "Lexend";
-    font-weight   : 400;
-    font-size     : 14px;
-    line-height   : 100%;
-    letter-spacing: 0px;
-    color         : white;
-    text-align    : center;
-    text-transform: capitalize;
+.logoutButton:hover {
+    background: #E31616;
+    color     : white;
 }
 
-.accountOptions :global(.vtex-button__label) {
-    width        : 368px;
-    height       : 48px;
-    border-radius: 40px;
-    border-width : 1px;
-    background   : transparent;
+.logoutButton::after {
+    content  : "Log Out";
+    font-size: 14px;
+    font-family: "Lexend";
+    font-weight: 400;
 }
-
-.accountOptions :global(.vtex-button__label) span {
-    font-family   : "Lexend";
-    font-weight   : 400;
-    font-size     : 14px;
-    line-height   : 100%;
-    letter-spacing: 0px;
-    color         : #E31616;
-    text-align    : center;
-    text-transform: capitalize;
-}
-
 
 .profile {
     font-size: 0;

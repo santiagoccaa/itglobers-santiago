@@ -24,3 +24,8 @@
     background: white;
     margin-top: 68px;
 }
+
+:local(body div[class="vtex-render__container-id-default"]) {
+    background: white;
+    margin-top: 60px;
+}
