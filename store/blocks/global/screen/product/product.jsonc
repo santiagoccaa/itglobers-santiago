@@ -1,0 +1,8 @@
+{
+  "store.product": {
+    "children": [
+      "responsive-layout.mobile#mobile__product-detail",
+      "responsive-layout.desktop#desktop__product-detail"
+    ]
+  }
+}

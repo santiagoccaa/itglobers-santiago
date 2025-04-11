@@ -1,0 +1,147 @@
+{
+    "flex-layout.col#right-col": {
+      "title": "Right Column Skus Products name, price, button,",
+      "props": {
+        "preventVerticalStretch": true,
+        "rowGap": 0
+      },
+      "children": [
+        "vtex.store-components:product-name#pdp",
+        "product-price",
+        "sku-selector",
+        "responsive-layout.desktop#add-to-cart",
+        "responsive-layout.mobile#add-to-cart",
+        "flex-layout.row",
+        "product-separator",
+        "share"
+      ]
+    },
+    "vtex.store-components:product-name#pdp": {
+      "title": "Product Name with Brand and SKU",
+      "props": {
+        "showSku": true,
+        "showBrandName": true
+      }
+    },
+    "share": {
+      "title": "Social Share Buttons",
+      "props": {
+        "social": {
+          "Facebook": true,
+          "WhatsApp": true,
+          "Pinterest": true,
+          "Twitter": false
+        }
+      }
+    },
+    "sku-selector": {
+      "title": "SKU Selector with Image Preview",
+      "props": {
+        "showValueForVariation": "image"
+      }
+    },
+    "flex-layout.row#product-specifications": {
+      "title": "Product Specifications Layout Row",
+      "children": [
+        "product-specification-group#table"
+      ]
+    },
+    "product-specification-group#table": {
+      "title": "Product Specification Group Table",
+      "children": [
+        "flex-layout.row#spec-group"
+      ]
+    },
+    "flex-layout.row#spec-group": {
+      "title": "Row for Specification Group",
+      "props": {
+        "blockClass": "productSpecificationGroup"
+      },
+      "children": [
+        "flex-layout.col#spec-group"
+      ]
+    },
+    "flex-layout.col#spec-group": {
+      "title": "Column for Specification Group",
+      "children": [
+        "flex-layout.row#spec-group-name",
+        "product-specification"
+      ]
+    },
+    "flex-layout.row#spec-group-name": {
+      "title": "Row for Specification Group Name",
+      "props": {
+        "blockClass": "productSpecificationGroupName"
+      },
+      "children": [
+        "product-specification-text#group"
+      ]
+    },
+    "product-specification": {
+      "title": "Product Specification Wrapper",
+      "children": [
+        "flex-layout.row#spec-item"
+      ]
+    },
+    "flex-layout.row#spec-item": {
+      "title": "Row for Specification Item",
+      "props": {
+        "blockClass": "productSpecification",
+        "horizontalAlign": "center"
+      },
+      "children": [
+        "flex-layout.col#spec-name",
+        "flex-layout.col#spec-value"
+      ]
+    },
+    "flex-layout.col#spec-name": {
+      "title": "Column for Specification Name",
+      "props": {
+        "blockClass": "productSpecificationName",
+        "width": {
+          "mobile": "50%",
+          "desktop": "25%"
+        }
+      },
+      "children": [
+        "product-specification-text#specification"
+      ]
+    },
+    "flex-layout.col#spec-value": {
+      "title": "Column for Specification Value",
+      "props": {
+        "blockClass": "productSpecificationValue"
+      },
+      "children": [
+        "product-specification-values"
+      ]
+    },
+    "product-specification-values": {
+      "title": "Product Specification Values",
+      "children": [
+        "product-specification-text#value"
+      ]
+    },
+    "product-specification-text#group": {
+      "title": "Specification Group Title Text",
+      "props": {
+        "message": "Especificaciones del producto",
+        "blockClass": "group"
+      }
+    },
+    "product-specification-text#specification": {
+      "title": "Specification Name Text",
+      "props": {
+        "message": "{specificationName}",
+        "blockClass": "specification"
+      }
+    },
+    "product-specification-text#value": {
+      "title": "Specification Value Text",
+      "props": {
+        "message": "{specificationValue}",
+        "blockClass": "value"
+      }
+    }
+  }
+  
