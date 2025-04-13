@@ -2,27 +2,27 @@
   "header": {
     "title": "Header",
     "blocks": [
-      "header-layout.desktop#owo",
-      "header-layout.mobile#owo"
+      "header-layout.desktop#desktop__header",
+      "header-layout.mobile#mobile__header"
     ]
   },
   "header.full": {
     "blocks": [
-      "header-layout.desktop#owo",
-      "header-layout.mobile#owo"
+      "header-layout.desktop#desktop__header",
+      "header-layout.mobile#mobile__header"
     ]
   },
-  "header-layout.desktop#owo": {
+  "header-layout.desktop#desktop__header": {
     "children": [
-      "sticky-layout#desktop"
+      "sticky-layout#desktop__header"
     ]
   },
-  "header-layout.mobile#owo": {
+  "header-layout.mobile#mobile__header": {
     "children": [
-      "sticky-layout#mobile"
+      "sticky-layout#mobile__header"
     ]
   },
-  "sticky-layout#desktop": {
+  "sticky-layout#desktop__header": {
     "title": "Header Sticky Desktop",
     "props": {
       "blockClass": "sticky-header"
@@ -32,7 +32,7 @@
       "flex-layout.row#header__global__row-2"
     ]
   },
-  "sticky-layout#mobile": {
+  "sticky-layout#mobile__header": {
     "title": "Header Sticky Mobile",
     "props": {
       "blockClass": "sticky-header"
