@@ -420,8 +420,8 @@
 }
 
 .logoutButton::after {
-    content  : "Log Out";
-    font-size: 14px;
+    content    : "Log Out";
+    font-size  : 14px;
     font-family: "Lexend";
     font-weight: 400;
 }
@@ -429,6 +429,7 @@
 .profile {
     font-size: 0;
     padding  : 0;
+    display: flex;
 }
 
 .profile::after {

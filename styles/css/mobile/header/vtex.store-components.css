@@ -6,6 +6,7 @@
 
     .autoCompleteOuterContainer :global(.vtex-styleguide-9-x-input) {
         display: none;
+        background:red;
     }
 
     .autoCompleteOuterContainer :local(span) {

@@ -37,9 +37,21 @@
 }
 
 .flexRowContent--row2-desktop {
-    padding-left: 16px;
-    overflow    : scroll;
-    overflow-y  : auto;
+    padding-left   : 16px;
+    overflow       : scroll;
+    overflow-y     : auto;
     scrollbar-width: none;
-    width: 100%;
+    width          : 100%;
+}
+
+.flexRow--row1-desktop,
+.flexRow--row2-desktop {
+    display    : flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexRowContent--row1-desktop,
+.flexRowContent--row2-desktop {
+    max-width: 1280px;
 }
