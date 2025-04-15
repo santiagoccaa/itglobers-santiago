@@ -28,7 +28,6 @@
     },
     "flex-layout.row#search_cart_login": {
         "children": [
-            "search-bar#mobile",
             "minicart.v2",
             "login#global__header--login"
         ],

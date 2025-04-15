@@ -440,6 +440,15 @@
     color         : white;
 }
 
+.buttonLink :local(span)::after {
+    content       : "Cuenta";
+    font-family   : "Lexend";
+    font-weight   : 400;
+    font-size     : 12px;
+    text-transform: capitalize;
+    color         : white;
+}
+
 .label {
     font-size: 0px;
 }
